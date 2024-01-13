@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="3.75" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -59,6 +59,14 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 </layers>
 <board>
 <plain>
@@ -75,6 +83,8 @@
 <dimension x1="46.85" y1="38.35" x2="46.85" y2="-38.35" x3="56.85" y3="0" locked="yes" textsize="1.778" layer="47" visible="yes"/>
 <dimension x1="50.6" y1="42.1" x2="50.6" y2="-42.1" x3="60.6" y3="0" textsize="1.778" layer="47"/>
 <dimension x1="50.6" y1="-42.1" x2="-75" y2="-42.1" x3="-12.2" y3="-52.1" textsize="1.778" layer="47"/>
+<rectangle x1="42.85" y1="34.35" x2="50.6" y2="42.1" layer="41"/>
+<rectangle x1="42.85" y1="34.35" x2="50.6" y2="42.1" layer="42"/>
 </plain>
 <libraries>
 </libraries>
@@ -272,7 +282,7 @@ design rules under a new name.</description>
 <elements>
 </elements>
 <signals>
-<signal name="S$1">
+<signal name="MOUNT2">
 <via x="46.85" y="38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
 <via x="46.85" y="-38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
 <via x="-46.85" y="38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
@@ -280,6 +290,20 @@ design rules under a new name.</description>
 <wire x1="46.85" y1="-38.35" x2="46.85" y2="38.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.85" y1="-38.35" x2="46.85" y2="-38.35" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.85" y1="38.35" x2="-46.85" y2="-38.35" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND">
+<polygon width="0.1524" layer="1">
+<vertex x="50.6" y="-42.1"/>
+<vertex x="50.6" y="42.1"/>
+<vertex x="-75" y="42.1"/>
+<vertex x="-75" y="-42.1"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="50.6" y="-42.1"/>
+<vertex x="50.6" y="42.1"/>
+<vertex x="-75" y="42.1"/>
+<vertex x="-75" y="-42.1"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
