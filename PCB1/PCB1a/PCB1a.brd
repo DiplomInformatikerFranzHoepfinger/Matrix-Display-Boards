@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="4" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
@@ -70,21 +70,19 @@
 </layers>
 <board>
 <plain>
-<wire x1="-75" y1="40.6" x2="-75" y2="-40.6" width="0" layer="20"/>
-<wire x1="-75" y1="-40.6" x2="-73.5" y2="-42.1" width="0" layer="20" curve="90"/>
-<wire x1="-73.5" y1="-42.1" x2="49.1" y2="-42.1" width="0" layer="20"/>
-<wire x1="-75" y1="40.6" x2="-73.5" y2="42.1" width="0" layer="20" curve="-90"/>
-<wire x1="49.1" y1="-42.1" x2="50.6" y2="-40.6" width="0" layer="20" curve="90"/>
-<wire x1="50.6" y1="-40.6" x2="50.6" y2="40.6" width="0" layer="20"/>
-<wire x1="50.6" y1="40.6" x2="49.1" y2="42.1" width="0" layer="20" curve="90"/>
-<wire x1="49.1" y1="42.1" x2="-73.5" y2="42.1" width="0" layer="20"/>
+<wire x1="-75" y1="40.6" x2="-75" y2="-40.6" width="0" layer="20" locked="yes"/>
+<wire x1="-75" y1="-40.6" x2="-73.5" y2="-42.1" width="0" layer="20" curve="90" locked="yes"/>
+<wire x1="-73.5" y1="-42.1" x2="49.1" y2="-42.1" width="0" layer="20" locked="yes"/>
+<wire x1="-75" y1="40.6" x2="-73.5" y2="42.1" width="0" layer="20" curve="-90" locked="yes"/>
+<wire x1="49.1" y1="-42.1" x2="50.6" y2="-40.6" width="0" layer="20" curve="90" locked="yes"/>
+<wire x1="50.6" y1="-40.6" x2="50.6" y2="40.6" width="0" layer="20" locked="yes"/>
+<wire x1="50.6" y1="40.6" x2="49.1" y2="42.1" width="0" layer="20" curve="90" locked="yes"/>
+<wire x1="49.1" y1="42.1" x2="-73.5" y2="42.1" width="0" layer="20" locked="yes"/>
 <dimension x1="-46.85" y1="-38.35" x2="46.85" y2="-38.35" x3="0" y3="-48.35" locked="yes" textsize="1.778" layer="47" visible="yes"/>
 <dimension x1="46.85" y1="38.35" x2="46.85" y2="-38.35" x3="56.85" y3="0" locked="yes" textsize="1.778" layer="47" visible="yes"/>
 <dimension x1="46.85" y1="38.35" x2="46.85" y2="-38.35" x3="56.85" y3="0" locked="yes" textsize="1.778" layer="47" visible="yes"/>
 <dimension x1="50.6" y1="42.1" x2="50.6" y2="-42.1" x3="60.6" y3="0" textsize="1.778" layer="47"/>
 <dimension x1="50.6" y1="-42.1" x2="-75" y2="-42.1" x3="-12.2" y3="-52.1" textsize="1.778" layer="47"/>
-<rectangle x1="42.85" y1="34.35" x2="50.6" y2="42.1" layer="41"/>
-<rectangle x1="42.85" y1="34.35" x2="50.6" y2="42.1" layer="42"/>
 </plain>
 <libraries>
 </libraries>
@@ -282,27 +280,86 @@ design rules under a new name.</description>
 <elements>
 </elements>
 <signals>
-<signal name="MOUNT2">
+<signal name="MOUNT1">
 <via x="46.85" y="38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
+</signal>
+<signal name="MOUNT2">
 <via x="46.85" y="-38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
+</signal>
+<signal name="MOUNT3">
 <via x="-46.85" y="38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
+</signal>
+<signal name="MOUNT4">
 <via x="-46.85" y="-38.35" extent="1-16" drill="3.2" diameter="7" locked="yes"/>
-<wire x1="46.85" y1="-38.35" x2="46.85" y2="38.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.85" y1="-38.35" x2="46.85" y2="-38.35" width="0" layer="19" extent="1-1"/>
-<wire x1="-46.85" y1="38.35" x2="-46.85" y2="-38.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
-<polygon width="0.1524" layer="1">
-<vertex x="50.6" y="-42.1"/>
-<vertex x="50.6" y="42.1"/>
-<vertex x="-75" y="42.1"/>
-<vertex x="-75" y="-42.1"/>
-</polygon>
 <polygon width="0.1524" layer="16">
-<vertex x="50.6" y="-42.1"/>
-<vertex x="50.6" y="42.1"/>
-<vertex x="-75" y="42.1"/>
-<vertex x="-75" y="-42.1"/>
+<vertex x="44.12" y="-34.35"/>
+<vertex x="49.33" y="-34.35"/>
+<vertex x="50.6" y="-33.08"/>
+<vertex x="50.6" y="33.08"/>
+<vertex x="49.33" y="34.35"/>
+<vertex x="44.12" y="34.35"/>
+<vertex x="42.85" y="35.62"/>
+<vertex x="42.85" y="40.83"/>
+<vertex x="41.58" y="42.1"/>
+<vertex x="-41.58" y="42.1"/>
+<vertex x="-42.85" y="40.83"/>
+<vertex x="-42.85" y="35.62"/>
+<vertex x="-44.12" y="34.35"/>
+<vertex x="-49.33" y="34.35"/>
+<vertex x="-50.6" y="35.62"/>
+<vertex x="-50.6" y="40.83"/>
+<vertex x="-51.87" y="42.1"/>
+<vertex x="-73.73" y="42.1"/>
+<vertex x="-75" y="40.83"/>
+<vertex x="-75" y="-40.83"/>
+<vertex x="-73.73" y="-42.1"/>
+<vertex x="-51.87" y="-42.1"/>
+<vertex x="-50.6" y="-40.83"/>
+<vertex x="-50.6" y="-35.62"/>
+<vertex x="-49.33" y="-34.35"/>
+<vertex x="-44.12" y="-34.35"/>
+<vertex x="-42.85" y="-35.62"/>
+<vertex x="-42.85" y="-40.83"/>
+<vertex x="-41.58" y="-42.1"/>
+<vertex x="41.58" y="-42.1"/>
+<vertex x="42.85" y="-40.83"/>
+<vertex x="42.85" y="-35.62"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="44.12" y="-34.35"/>
+<vertex x="49.33" y="-34.35"/>
+<vertex x="50.6" y="-33.08"/>
+<vertex x="50.6" y="33.08"/>
+<vertex x="49.33" y="34.35"/>
+<vertex x="44.12" y="34.35"/>
+<vertex x="42.85" y="35.62"/>
+<vertex x="42.85" y="40.83"/>
+<vertex x="41.58" y="42.1"/>
+<vertex x="-41.58" y="42.1"/>
+<vertex x="-42.85" y="40.83"/>
+<vertex x="-42.85" y="35.62"/>
+<vertex x="-44.12" y="34.35"/>
+<vertex x="-49.33" y="34.35"/>
+<vertex x="-50.6" y="35.62"/>
+<vertex x="-50.6" y="40.83"/>
+<vertex x="-51.87" y="42.1"/>
+<vertex x="-73.73" y="42.1"/>
+<vertex x="-75" y="40.83"/>
+<vertex x="-75" y="-40.83"/>
+<vertex x="-73.73" y="-42.1"/>
+<vertex x="-51.87" y="-42.1"/>
+<vertex x="-50.6" y="-40.83"/>
+<vertex x="-50.6" y="-35.62"/>
+<vertex x="-49.33" y="-34.35"/>
+<vertex x="-44.12" y="-34.35"/>
+<vertex x="-42.85" y="-35.62"/>
+<vertex x="-42.85" y="-40.83"/>
+<vertex x="-41.58" y="-42.1"/>
+<vertex x="41.58" y="-42.1"/>
+<vertex x="42.85" y="-40.83"/>
+<vertex x="42.85" y="-35.62"/>
 </polygon>
 </signal>
 </signals>
@@ -313,6 +370,16 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="6,1,a593a54683ae837b"/>
+<approved hash="6,1,a593a54683ae837b"/>
+<approved hash="6,1,a593a54683ae837b"/>
+<approved hash="6,1,a593a54683ae837b"/>
+<approved hash="6,16,a593a54683ae837b"/>
+<approved hash="6,16,a593a54683ae837b"/>
+<approved hash="6,16,a593a54683ae837b"/>
+<approved hash="6,16,a593a54683ae837b"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
