@@ -57,6 +57,7 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
@@ -70,6 +71,8 @@
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -106,6 +109,289 @@
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Connectors_WR-BHD" urn="urn:adsk.eagle:library:15268170">
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Wire-to-Board Connectors - WR-BHD &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-11-27&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="61231620621" urn="urn:adsk.eagle:footprint:15268280/3" library_version="11">
+<description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header
+
+&lt;/B&gt;&lt;BR&gt; &lt;BR&gt;2.54 mm, SMT, 16Pins</description>
+<smd name="1" x="-8.89" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="2" x="-8.89" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="3" x="-6.35" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="4" x="-6.35" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="5" x="-3.81" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="6" x="-3.81" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="7" x="-1.27" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="8" x="-1.27" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="9" x="1.27" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="10" x="1.27" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="11" x="3.81" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="12" x="3.81" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="13" x="6.35" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="14" x="6.35" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="15" x="8.89" y="-2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<smd name="16" x="8.89" y="2.875" dx="1.2" dy="4.75" layer="1" rot="R180"/>
+<wire x1="-13.97" y1="4.4" x2="-13.97" y2="-4.4" width="0.1" layer="51"/>
+<wire x1="-13.97" y1="-4.4" x2="13.97" y2="-4.4" width="0.1" layer="51"/>
+<wire x1="13.97" y1="-4.4" x2="13.97" y2="4.4" width="0.1" layer="51"/>
+<wire x1="13.97" y1="4.4" x2="11.89" y2="4.4" width="0.1" layer="51"/>
+<wire x1="11.1" y1="4.4" x2="-11.09" y2="4.4" width="0.1" layer="51"/>
+<wire x1="-11.88" y1="4.4" x2="-13.97" y2="4.4" width="0.1" layer="51"/>
+<wire x1="-11.88" y1="4.4" x2="-11.09" y2="4.4" width="0.1" layer="51" curve="-150.231724"/>
+<wire x1="-11.88" y1="4.4" x2="-11.09" y2="4.4" width="0.1" layer="51" curve="-150.231724"/>
+<wire x1="11.1" y1="4.4" x2="11.89" y2="4.4" width="0.1" layer="51" curve="-150.231724"/>
+<wire x1="-11.96" y1="4.5" x2="-14.07" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-14.07" y1="4.5" x2="-14.07" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-14.07" y1="-4.5" x2="-9.81" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-9.81" y1="4.5" x2="-11.02" y2="4.5" width="0.2" layer="21"/>
+<wire x1="11.96" y1="4.5" x2="14.07" y2="4.5" width="0.2" layer="21"/>
+<wire x1="14.07" y1="4.5" x2="14.07" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="14.07" y1="-4.5" x2="9.81" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="9.81" y1="4.5" x2="11.02" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-11.96" y1="4.5" x2="-11.02" y2="4.5" width="0.2" layer="21" curve="-131.849003"/>
+<wire x1="11.02" y1="4.5" x2="11.96" y2="4.5" width="0.2" layer="21" curve="-131.849003"/>
+<wire x1="-2.89" y1="-4.5" x2="-2.19" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-2.19" y1="4.5" x2="-2.89" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-4.73" y1="4.5" x2="-5.43" y2="4.5" width="0.2" layer="21"/>
+<wire x1="0.35" y1="4.5" x2="-0.35" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-7.27" y1="4.5" x2="-7.97" y2="4.5" width="0.2" layer="21"/>
+<wire x1="-5.43" y1="-4.5" x2="-4.73" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-7.97" y1="-4.5" x2="-7.27" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="-0.35" y1="-4.5" x2="0.35" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="2.19" y1="-4.5" x2="2.89" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="2.89" y1="4.5" x2="2.19" y2="4.5" width="0.2" layer="21"/>
+<wire x1="5.43" y1="4.5" x2="4.73" y2="4.5" width="0.2" layer="21"/>
+<wire x1="4.73" y1="-4.5" x2="5.43" y2="-4.5" width="0.2" layer="21"/>
+<wire x1="7.97" y1="4.5" x2="7.27" y2="4.5" width="0.2" layer="21"/>
+<wire x1="7.27" y1="-4.5" x2="7.97" y2="-4.5" width="0.2" layer="21"/>
+<text x="-14.81" y="1" size="1.27" layer="25" align="bottom-right">&gt;NAME</text>
+<text x="-14.81" y="-2" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-14.27" y="5.45"/>
+<vertex x="14.27" y="5.45"/>
+<vertex x="14.27" y="-5.45"/>
+<vertex x="-14.27" y="-5.45"/>
+</polygon>
+<circle x="-10.81" y="-3.8" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="61231620621" urn="urn:adsk.eagle:package:15268446/6" type="model" library_version="11">
+<description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header
+
+&lt;/B&gt;&lt;BR&gt; &lt;BR&gt;2.54 mm, SMT, 16Pins</description>
+<packageinstances>
+<packageinstance name="61231620621"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="8X2MS" urn="urn:adsk.eagle:symbol:15268171/1" library_version="11">
+<description>8x2Rows Male SMT</description>
+<pin name="1" x="-7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="3" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="-5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="6" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="7" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="8" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="9" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="10" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="11" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="12" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="13" x="7.62" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="14" x="7.62" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="15" x="10.16" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="16" x="10.16" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<wire x1="11.43" y1="2.54" x2="-8.89" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-2.54" x2="11.43" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-2.54" x2="11.43" y2="2.54" width="0.254" layer="94"/>
+<text x="-9.854" y="0.568" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-9.978" y="-1.484" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<rectangle x1="-8.12" y1="0.5" x2="-7.12" y2="2.5" layer="94"/>
+<rectangle x1="-8.12" y1="-2.5" x2="-7.12" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="-5.58" y1="0.5" x2="-4.58" y2="2.5" layer="94"/>
+<rectangle x1="-5.58" y1="-2.5" x2="-4.58" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="-3.04" y1="0.5" x2="-2.04" y2="2.5" layer="94"/>
+<rectangle x1="-3.04" y1="-2.5" x2="-2.04" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="-0.5" y1="0.5" x2="0.5" y2="2.5" layer="94"/>
+<rectangle x1="-0.5" y1="-2.5" x2="0.5" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="2.04" y1="0.5" x2="3.04" y2="2.5" layer="94"/>
+<rectangle x1="2.04" y1="-2.5" x2="3.04" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="4.58" y1="0.5" x2="5.58" y2="2.5" layer="94"/>
+<rectangle x1="4.58" y1="-2.5" x2="5.58" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="7.12" y1="0.5" x2="8.12" y2="2.5" layer="94"/>
+<rectangle x1="7.12" y1="-2.5" x2="8.12" y2="-0.5" layer="94" rot="R180"/>
+<rectangle x1="9.66" y1="0.5" x2="10.66" y2="2.5" layer="94"/>
+<rectangle x1="9.66" y1="-2.5" x2="10.66" y2="-0.5" layer="94" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="6123XX20621_61231620621" urn="urn:adsk.eagle:component:15268613/9" prefix="J" library_version="11">
+<description>&lt;b&gt;WR-BHD 2.54 mm Male SMT Box Header&lt;/b&gt;
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;B&gt;
+Material Properties&lt;/B&gt;:
+&lt;BR&gt;
+&lt;BR&gt;Insulator Material	PA 9T; PA9T
+&lt;BR&gt;Insulator Flammability Rating	UL94 V-0
+&lt;BR&gt;Color	Black
+&lt;BR&gt;Contact Material	Copper Alloy
+&lt;BR&gt;Contact Plating	Gold
+&lt;BR&gt;Contact Type	Stamped
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;B&gt;General Information&lt;/B&gt;
+&lt;BR&gt;
+&lt;BR&gt;Operating Temperature	-40 up to +125 °C
+&lt;BR&gt;Compliance	RoHS
+&lt;BR&gt;Working Voltage	250 V (AC)
+&lt;BR&gt;Withstanding Voltage	500 V (AC)
+&lt;BR&gt;Contact Resistance	20 mΩ
+&lt;BR&gt;RISO	1000 MΩ
+&lt;BR&gt;Pitch	2.54 mm
+&lt;BR&gt;Gender	Male
+&lt;BR&gt;
+
+&lt;BR&gt;&lt;B&gt;Certification&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;UL Approval	E323964
+&lt;BR&gt;
+&lt;BR&gt;&lt;B&gt;Packaging Properties&lt;/b&gt;
+&lt;BR&gt;
+&lt;BR&gt;Packaging	Tape and Reel with Cap
+&lt;BR&gt;&lt;BR&gt;
+
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o32919v209%20Family_WR-BHD_612xxx20621.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/en/components/products/BHD_2_54_SMT_MALE_BOX_HEADER_6120XX20621&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2022-09-06&lt;BR&gt;
+2022 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="8X2MS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61231620621">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="13" pad="13"/>
+<connect gate="G$1" pin="14" pad="14"/>
+<connect gate="G$1" pin="15" pad="15"/>
+<connect gate="G$1" pin="16" pad="16"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15268446/6"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="IR" value="3A"/>
+<attribute name="LENGTH" value="27.94mm"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap"/>
+<attribute name="PART-NUMBER" value=" 61231620621 "/>
+<attribute name="PINS" value=" 16 "/>
+<attribute name="PITCH" value="2.54mm"/>
+<attribute name="TYPE" value="Straight"/>
+<attribute name="VALUE" value=" 61231620621 "/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -117,6 +403,10 @@
 </classes>
 <parts>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="HUB75RGB" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
+<part name="HUB75RGB." library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
+<part name="HUB08RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
+<part name="HUB12RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
 </parts>
 <sheets>
 <sheet>
@@ -125,6 +415,22 @@
 <instances>
 <instance part="GND1" gate="1" x="12.7" y="12.7" smashed="yes">
 <attribute name="VALUE" x="10.16" y="10.16" size="1.778" layer="96"/>
+</instance>
+<instance part="HUB75RGB" gate="G$1" x="33.02" y="116.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.452" y="106.986" size="1.016" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="34.504" y="106.862" size="1.016" layer="96" rot="R90" align="bottom-right"/>
+</instance>
+<instance part="HUB75RGB." gate="G$1" x="33.02" y="53.34" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.452" y="43.486" size="1.016" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="34.504" y="43.362" size="1.016" layer="96" rot="R90" align="bottom-right"/>
+</instance>
+<instance part="HUB08RG" gate="G$1" x="33.02" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.452" y="73.966" size="1.016" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="34.504" y="73.842" size="1.016" layer="96" rot="R90" align="bottom-right"/>
+</instance>
+<instance part="HUB12RG" gate="G$1" x="33.02" y="22.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="32.452" y="13.006" size="1.016" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="34.504" y="12.882" size="1.016" layer="96" rot="R90" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
@@ -145,6 +451,11 @@ with this version.
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
