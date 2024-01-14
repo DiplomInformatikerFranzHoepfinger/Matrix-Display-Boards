@@ -843,6 +843,10 @@ UsedLibraryUrn="urn:adsk.eagle:library:182"
 UsedLibraryUrn="urn:adsk.eagle:library:41994353"
 UsedLibraryUrn="urn:adsk.eagle:library:42081703"
 UsedLibraryUrn="urn:adsk.eagle:library:42081723"
+UsedLibraryUrn="urn:adsk.eagle:library:42632105"
+UsedLibraryUrn="urn:adsk.eagle:library:42566086"
+UsedLibraryUrn="urn:adsk.eagle:library:42588079"
+UsedLibraryUrn="urn:adsk.eagle:library:42653698"
 UsedLibraryUrn="urn:adsk.eagle:library:183"
 UsedLibraryUrn="urn:adsk.eagle:library:184"
 UsedLibraryUrn="urn:adsk.eagle:library:188"
@@ -858,10 +862,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibraryUrn="urn:adsk.eagle:library:42653698"
-UsedLibraryUrn="urn:adsk.eagle:library:42632105"
-UsedLibraryUrn="urn:adsk.eagle:library:42588079"
-UsedLibraryUrn="urn:adsk.eagle:library:42566086"
 
 [Win_1]
 Type="Control Panel"
@@ -871,7 +871,7 @@ Number=0
 Type="Schematic Editor"
 Number=1
 File="PCB1a.sch"
-View="43.0173 -131.733 315.91 266.605"
+View="76.6676 -17.5312 234.592 212.989"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"
@@ -910,14 +910,14 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
-Views=" 1: 43.0173 -131.733 315.91 266.605"
+Views=" 1: 76.6676 -17.5312 234.592 212.989"
 Sheet="1"
 
 [Win_3]
 Type="Board Editor"
 Number=2
 File="PCB1a.brd"
-View="-44.078 -9.97698 64.9344 59.5973"
+View="-177.817 -158.336 212.794 90.961"
 WireWidths=" 0.0762 0.1016 0.127 0.15 0.2 0.2032 0.254 0.3048 0.4064 0.508 0.6096 0.8128 1.016 1.27 2.54 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.2 0.25 0.3 0.35 0.4 0.45 0.5 0.55 0.65 0.7 0.75 0.8 0.85 0.9 1 0.6"

@@ -468,94 +468,81 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="691318400002" urn="urn:adsk.eagle:footprint:16281708/1" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3184 - 7.62 mm Close Vertical PCB Header with Flanges 
-&lt;br&gt;&lt;/b&gt;Max Height = 12mm , Pitch 7.62mm , 2pins</description>
-<wire x1="12.91" y1="4.7" x2="-12.91" y2="4.7" width="0.1" layer="51"/>
-<wire x1="-12.91" y1="4.7" x2="-12.91" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="-12.91" y1="-3.8" x2="12.91" y2="-3.8" width="0.1" layer="51"/>
-<wire x1="12.91" y1="-3.8" x2="12.91" y2="4.7" width="0.1" layer="51"/>
-<wire x1="-13.01" y1="4.8" x2="13.01" y2="4.8" width="0.2" layer="21"/>
-<wire x1="13.01" y1="4.8" x2="13.01" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="13.01" y1="-3.9" x2="-13.01" y2="-3.9" width="0.2" layer="21"/>
-<wire x1="-13.01" y1="-3.9" x2="-13.01" y2="4.8" width="0.2" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="1.6"/>
-<pad name="2" x="3.81" y="0" drill="1.6"/>
-<text x="0" y="5.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+<package name="691325110005" urn="urn:adsk.eagle:footprint:16281094/1" library_version="6">
+<description>&lt;b&gt;WR-TBL Serie 3251 - 3.50 mm Horizontal PCB Header with Flanges 
+&lt;br&gt;&lt;/b&gt;Max Height = 7.2mm , Pitch 3.5mm , 5pins</description>
+<pad name="3" x="0" y="0" drill="1.4"/>
+<pad name="2" x="-3.5" y="0" drill="1.4"/>
+<pad name="1" x="-7" y="0" drill="1.4"/>
+<pad name="4" x="3.5" y="0" drill="1.4"/>
+<pad name="5" x="7" y="0" drill="1.4"/>
+<wire x1="-13.9" y1="-8" x2="13.9" y2="-8" width="0.1" layer="51"/>
+<wire x1="13.9" y1="-8" x2="13.9" y2="1.2" width="0.1" layer="51"/>
+<wire x1="13.9" y1="1.2" x2="-13.9" y2="1.2" width="0.1" layer="51"/>
+<wire x1="-13.9" y1="1.2" x2="-13.9" y2="-8" width="0.1" layer="51"/>
+<wire x1="7.55" y1="1.3" x2="14" y2="1.3" width="0.2" layer="21"/>
+<wire x1="14" y1="1.3" x2="14" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="14" y1="-8.1" x2="-14" y2="-8.1" width="0.2" layer="21"/>
+<wire x1="-14" y1="-8.1" x2="-14" y2="1.3" width="0.2" layer="21"/>
+<wire x1="-14" y1="1.3" x2="-7.45" y2="1.3" width="0.2" layer="21"/>
+<wire x1="-6.45" y1="1.3" x2="-3.95" y2="1.3" width="0.2" layer="21"/>
+<wire x1="-2.95" y1="1.3" x2="-0.45" y2="1.3" width="0.2" layer="21"/>
+<wire x1="0.55" y1="1.3" x2="3.05" y2="1.3" width="0.2" layer="21"/>
+<wire x1="4.05" y1="1.3" x2="6.55" y2="1.3" width="0.2" layer="21"/>
+<text x="-3.5" y="-10" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <polygon width="0.1" layer="39">
-<vertex x="-13.21" y="5"/>
-<vertex x="13.21" y="5"/>
-<vertex x="13.21" y="-4.1"/>
-<vertex x="-13.21" y="-4.1"/>
+<vertex x="-14.2" y="1.5"/>
+<vertex x="14.2" y="1.5"/>
+<vertex x="14.2" y="-8.3"/>
+<vertex x="-14.2" y="-8.3"/>
 </polygon>
-<circle x="-5.4" y="1.9" radius="0.1" width="0.4" layer="21"/>
-</package>
-<package name="691317410002" urn="urn:adsk.eagle:footprint:16281733/1" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3174 - 7.62 mm Close Horizontal PCB Header 
-&lt;br&gt;&lt;/b&gt;Max Height = 8.5mm , Pitch 7.62mm , 2pins</description>
-<wire x1="-12.91" y1="-10" x2="12.91" y2="-10" width="0.1" layer="51"/>
-<wire x1="12.91" y1="-10" x2="12.91" y2="2" width="0.1" layer="51"/>
-<wire x1="12.91" y1="2" x2="-12.91" y2="2" width="0.1" layer="51"/>
-<wire x1="-12.91" y1="2" x2="-12.91" y2="-10" width="0.1" layer="51"/>
-<wire x1="-13.01" y1="2.1" x2="13.01" y2="2.1" width="0.2" layer="21"/>
-<wire x1="13.01" y1="2.1" x2="13.01" y2="-10.1" width="0.2" layer="21"/>
-<wire x1="13.01" y1="-10.1" x2="-13.01" y2="-10.1" width="0.2" layer="21"/>
-<wire x1="-13.01" y1="-10.1" x2="-13.01" y2="2.1" width="0.2" layer="21"/>
-<pad name="2" x="3.81" y="0" drill="1.6" rot="R180"/>
-<pad name="1" x="-3.81" y="0" drill="1.6" rot="R180"/>
-<text x="0" y="3" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="-3.5" y="-12" size="1.27" layer="27">&gt;VALUE</text>
-<polygon width="0.1" layer="39">
-<vertex x="-13.21" y="2.3"/>
-<vertex x="13.21" y="2.3"/>
-<vertex x="13.21" y="-10.3"/>
-<vertex x="-13.21" y="-10.3"/>
-</polygon>
-<circle x="-5.9" y="1" radius="0.2" width="0.4" layer="21"/>
+<circle x="-8.75" y="-1.2" radius="0.1" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="691318400002" urn="urn:adsk.eagle:package:16282433/2" type="model" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3184 - 7.62 mm Close Vertical PCB Header with Flanges 
-&lt;br&gt;&lt;/b&gt;Max Height = 12mm , Pitch 7.62mm , 2pins</description>
+<package3d name="691325110005" urn="urn:adsk.eagle:package:16281816/2" type="model" library_version="6">
+<description>&lt;b&gt;WR-TBL Serie 3251 - 3.50 mm Horizontal PCB Header with Flanges 
+&lt;br&gt;&lt;/b&gt;Max Height = 7.2mm , Pitch 3.5mm , 5pins</description>
 <packageinstances>
-<packageinstance name="691318400002"/>
-</packageinstances>
-</package3d>
-<package3d name="691317410002" urn="urn:adsk.eagle:package:16282458/2" type="model" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3174 - 7.62 mm Close Horizontal PCB Header 
-&lt;br&gt;&lt;/b&gt;Max Height = 8.5mm , Pitch 7.62mm , 2pins</description>
-<packageinstances>
-<packageinstance name="691317410002"/>
+<packageinstance name="691325110005"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="2PT" urn="urn:adsk.eagle:symbol:16281015/1" library_version="6">
+<symbol name="5PT" urn="urn:adsk.eagle:symbol:16281012/1" library_version="6">
 <description>Pin Header THT</description>
-<pin name="1" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<text x="-4.99" y="-1.205" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
-<text x="-4.95" y="-3.01" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
-<wire x1="-3.81" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<pin name="1" x="-5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="5.08" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<text x="-7.53" y="-1.205" size="1.016" layer="95" align="bottom-right">&gt;NAME</text>
+<text x="-7.49" y="-3.01" size="1.016" layer="96" align="bottom-right">&gt;VALUE</text>
+<wire x1="-6.35" y1="-2.54" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.27" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<circle x="-5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 <circle x="-2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 <circle x="0" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="2.54" y="-1.27" radius="0.254" width="0.635" layer="94"/>
+<circle x="5.08" y="-1.27" radius="0.254" width="0.635" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="691318400002" urn="urn:adsk.eagle:component:16283156/6" prefix="J" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3184 - 7.62 mm Close Vertical PCB Header with Flanges&lt;/b&gt;
+<deviceset name="691325110005" urn="urn:adsk.eagle:component:16282541/6" prefix="J" library_version="6">
+<description>&lt;b&gt;WR-TBL Serie 3251 - 3.50 mm Horizontal PCB Header with Flanges&lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;&lt;b&gt;
 KIND PROPERTIES &lt;/b&gt;
 &lt;br&gt;&lt;br&gt;
-Pitch 7.62 mm 
+Pitch 3.5 mm 
 &lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;MATERIAL PROPERTIES &lt;/b&gt;
@@ -573,115 +560,56 @@ Pitch 7.62 mm
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;ELECTRICAL PROPERTIES &lt;/b&gt;
 &lt;br&gt;
-&lt;br&gt;IR cULus 20 A 
+&lt;br&gt;IR cULus 10 A 
+&lt;br&gt;IR VDE 10.5 A 
 &lt;br&gt;Working Voltage [cULus] 300 V (AC) 
+&lt;br&gt;Working Voltage [VDE] 300 V (AC) 
 &lt;br&gt;Withstanding Voltage [cULus] 1600 V (AC) 
+&lt;br&gt;Withstanding Voltage [VDE] 2500 V (AC) 
 &lt;br&gt;Contact Resistance [cULus] 20 mΩ 
+&lt;br&gt;Contact Resistance [VDE] 20 mΩ 
 &lt;br&gt;
 &lt;br&gt;
 &lt;b&gt;CERTIFICATION &lt;/b&gt;
 &lt;br&gt;
 &lt;br&gt;cULus Approval E315414 
+&lt;br&gt;VDE Approval 40023195 
 &lt;br&gt;
 &lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o33270v209%20Family_WR-TBL_69131840000x.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o33270v209%20Family_WR-TBL_69131840000x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_7_62_3184_CLOSE_VERTICAL_PCB_HEADER_W_FLANGES_69131840000X/"&gt;https://www.we-online.com/catalog/en/TBL_7_62_3184_CLOSE_VERTICAL_PCB_HEADER_W_FLANGES_69131840000X/&lt;/a&gt;&lt;p&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o33340v209%20Family_WR-TLB_69132511000x.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o33340v209%20Family_WR-TLB_69132511000x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_3_50_3251_HORIZONTAL_PCB_HEADER_W_FLANGES_69132511000X/"&gt;https://www.we-online.com/catalog/en/TBL_3_50_3251_HORIZONTAL_PCB_HEADER_W_FLANGES_69132511000X/&lt;/a&gt;&lt;p&gt;
 
-&lt;/b&gt;Updated by Ella Wu  2019-12-30&lt;br&gt;
+&lt;/b&gt;Updated by Ella Wu  2019-12-18&lt;br&gt;
 &lt;/b&gt;2022(C) Wurth Elektronik</description>
 <gates>
-<gate name="G$1" symbol="2PT" x="0" y="0"/>
+<gate name="G$1" symbol="5PT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="691318400002">
+<device name="" package="691325110005">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16282433/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16281816/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691318400002?ae"/>
-<attribute name="IR-UL" value="20A"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691325110005?ae"/>
+<attribute name="IR-UL" value="10A"/>
+<attribute name="IR-VDE" value="10.5A"/>
 <attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 691318400002 "/>
-<attribute name="PINS" value=" 2 "/>
-<attribute name="PITCH" value="7.62mm"/>
-<attribute name="TYPE" value="Vertical"/>
-<attribute name="VALUE" value=" 691318400002 "/>
-<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="691317410002" urn="urn:adsk.eagle:component:16283180/6" prefix="J" library_version="6">
-<description>&lt;b&gt;WL-SMSW SMT Mono-color Side View Waterclear&lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;
-KIND PROPERTIES &lt;/b&gt;
-&lt;br&gt;&lt;br&gt;
-Pitch 7.62 mm  
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;MATERIAL PROPERTIES &lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Insulator Material PA66 
-&lt;br&gt;Insulator Flammability Rating UL94 V-0 
-&lt;br&gt;Contact Material Brass 
-&lt;br&gt;Contact Plating Tin 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;GENERAL INFORMATION &lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;Operating Temperature -40 up to +105 °C 
-&lt;br&gt;Compliance RoHS 
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;ELECTRICAL PROPERTIES &lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;IR cULus 20 A 
-&lt;br&gt;Working Voltage [cULus] 300 V (AC) 
-&lt;br&gt;Withstanding Voltage [cULus] 1600 V (AC) 
-&lt;br&gt;Contact Resistance [cULus] 20 mΩ 
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;CERTIFICATION &lt;/b&gt;
-&lt;br&gt;
-&lt;br&gt;cULus Approval E315414 
-&lt;br&gt;
-&lt;br&gt;
-&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o33342v209%20Family_WR-TL_69131741000x.jpg" title="Enlarge picture"&gt;
-&lt;img src="https://www.we-online.com/catalog/media/o33342v209%20Family_WR-TL_69131741000x.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
-Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_7_62_3174_CLOSE_HORIZONTAL_PCB_HEADER_69131741000X/"&gt;https://www.we-online.com/catalog/en/TBL_7_62_3174_CLOSE_HORIZONTAL_PCB_HEADER_69131741000X/&lt;/a&gt;&lt;p&gt;
-
-&lt;/b&gt;Updated by Ella Wu  2019-12-30&lt;br&gt;
-&lt;/b&gt;2022(C) Wurth Elektronik</description>
-<gates>
-<gate name="G$1" symbol="2PT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="691317410002">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16282458/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691317410002?ae"/>
-<attribute name="IR-UL" value="20A"/>
-<attribute name="MOUNT" value="THT"/>
-<attribute name="PART-NUMBER" value=" 691317410002 "/>
-<attribute name="PINS" value=" 2 "/>
-<attribute name="PITCH" value="7.62mm"/>
+<attribute name="PART-NUMBER" value=" 691325110005 "/>
+<attribute name="PINS" value=" 5 "/>
+<attribute name="PITCH" value="3.5mm"/>
 <attribute name="TYPE" value="Horizontal"/>
-<attribute name="VALUE" value=" 691317410002 "/>
+<attribute name="VALUE" value=" 691325110005 "/>
 <attribute name="WORKING-VOLTAGE-UL" value="300V (AC)"/>
+<attribute name="WORKING-VOLTAGE-VDE" value="300V (AC)"/>
 </technology>
 </technologies>
 </device>
@@ -704,8 +632,7 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_7_62_3174_CLOS
 <part name="HUB75RGB." library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
 <part name="HUB08RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
 <part name="HUB12RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" deviceset="6123XX20621_61231620621" device="" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 "/>
-<part name="J1" library="Wurth_Connectors_WR-TBL Pluggable Connector" library_urn="urn:adsk.eagle:library:16280984" deviceset="691318400002" device="" package3d_urn="urn:adsk.eagle:package:16282433/2" value=" 691318400002 "/>
-<part name="J2" library="Wurth_Connectors_WR-TBL Pluggable Connector" library_urn="urn:adsk.eagle:library:16280984" deviceset="691317410002" device="" package3d_urn="urn:adsk.eagle:package:16282458/2" value=" 691317410002 "/>
+<part name="J3" library="Wurth_Connectors_WR-TBL Pluggable Connector" library_urn="urn:adsk.eagle:library:16280984" deviceset="691325110005" device="" package3d_urn="urn:adsk.eagle:package:16281816/2" value=" 691325110005 "/>
 </parts>
 <sheets>
 <sheet>
@@ -731,13 +658,9 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/TBL_7_62_3174_CLOS
 <attribute name="NAME" x="32.452" y="13.006" size="1.016" layer="95" rot="R90" align="bottom-right"/>
 <attribute name="VALUE" x="34.504" y="12.882" size="1.016" layer="96" rot="R90" align="bottom-right"/>
 </instance>
-<instance part="J1" gate="G$1" x="50.8" y="165.1" smashed="yes">
-<attribute name="NAME" x="45.81" y="163.895" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="45.85" y="162.09" size="1.016" layer="96" align="bottom-right"/>
-</instance>
-<instance part="J2" gate="G$1" x="-96.52" y="251.46" smashed="yes">
-<attribute name="NAME" x="-101.51" y="250.255" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="-101.47" y="248.45" size="1.016" layer="96" align="bottom-right"/>
+<instance part="J3" gate="G$1" x="139.7" y="124.46" smashed="yes">
+<attribute name="NAME" x="132.17" y="123.255" size="1.016" layer="95" align="bottom-right"/>
+<attribute name="VALUE" x="132.21" y="121.45" size="1.016" layer="96" align="bottom-right"/>
 </instance>
 </instances>
 <busses>
