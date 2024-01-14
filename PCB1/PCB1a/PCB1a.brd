@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="100" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -54,12 +54,20 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="bCAD" color="11" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="7" fill="1" visible="no" active="no"/>
@@ -71,11 +79,117 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="no"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="no"/>
+<layer number="110" name="110" color="7" fill="1" visible="no" active="no"/>
+<layer number="111" name="111" color="7" fill="1" visible="no" active="no"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="no"/>
+<layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
+<layer number="114" name="tPlaceRed" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="FRNTMAAT2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
+<layer number="120" name="KAP_MAAT1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="no"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="no"/>
+<layer number="133" name="bottom_silk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="134" name="silk_top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="135" name="silk_bottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="136" name="silktop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="137" name="silkbottom" color="7" fill="1" visible="no" active="yes"/>
+<layer number="138" name="EEE" color="7" fill="1" visible="no" active="yes"/>
+<layer number="139" name="_tKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
+<layer number="141" name="ASSEMBLY_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="143" name="PLACE_BOUND_TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="7" fill="1" visible="no" active="yes"/>
+<layer number="147" name="PIN_NUMBER" color="7" fill="1" visible="no" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
+<layer number="149" name="DrillLegend_02-15" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
+<layer number="156" name="DXF0409-TOP" color="7" fill="1" visible="no" active="yes"/>
+<layer number="157" name="DXF0409-BOTTOM" color="7" fill="1" visible="no" active="yes"/>
+<layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="no"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="16" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="17" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="yes"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyNDAxMTM3MTk1NzI4MDY" f3durn="urn:adsk.wipprod:dm.lineage:9HDWv57yTli2KPtb9bdN_w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="5f602aae-c13a-43fd-976a-559e74166529" lastsyncedrevisionid="5f602aae-c13a-43fd-976a-559e74166529" lastboardhashguid="a5968208-0cce-2099-51f9-27230b5d76be" lastpushedtime="2024-01-14T11:15:05Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyNDAxMTM3MTk1NzI4MDY" f3durn="urn:adsk.wipprod:dm.lineage:9HDWv57yTli2KPtb9bdN_w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4e9598f2-953f-443b-a474-169d9f2b5d8c" lastsyncedrevisionid="4e9598f2-953f-443b-a474-169d9f2b5d8c" lastboardhashguid="22ce3a8d-4223-995e-c270-209ce9507cd8" lastpushedtime="2024-01-14T15:30:33Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-75" y1="40.6" x2="-75" y2="-40.6" width="0" layer="20" locked="yes"/>
 <wire x1="-75" y1="-40.6" x2="-73.5" y2="-42.1" width="0" layer="20" curve="90" locked="yes"/>
@@ -90,10 +204,68 @@
 <dimension x1="46.85" y1="38.35" x2="46.85" y2="-38.35" x3="56.85" y3="0" locked="yes" textsize="1.778" layer="47" visible="yes"/>
 <dimension x1="50.6" y1="42.1" x2="50.6" y2="-42.1" x3="60.6" y3="0" textsize="1.778" layer="47"/>
 <dimension x1="50.6" y1="-42.1" x2="-75" y2="-42.1" x3="-12.2" y3="-52.1" textsize="1.778" layer="47"/>
-<text x="-45.72" y="30.48" size="1.778" layer="21">HUB08 RG</text>
-<text x="-45.72" y="15.24" size="1.778" layer="21">HUB75 RGB</text>
-<text x="-45.72" y="2.54" size="1.778" layer="21">HUB12 RG</text>
-<text x="-45.72" y="-25.4" size="1.778" layer="21">HUB75 RGB</text>
+<text x="-45.72" y="22.86" size="1.778" layer="21">HUB08
+RG</text>
+<text x="-45.72" y="5.08" size="1.778" layer="21">HUB12
+RG</text>
+<text x="-45.72" y="-30.48" size="1.778" layer="21">HUB75
+RGB</text>
+<text x="119.38" y="50.7365" size="0.0254" layer="214" font="vector">D:/SmartProjects/Snc/a4_bn_logo2.bmp</text>
+<dimension x1="178.943" y1="50.8" x2="178.308" y2="95.25" x3="196.469" y3="73.025" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="119.38" y1="91.948" x2="182.88" y2="90.17" x3="151.13" y3="97.028" textsize="1.778" layer="47" dtype="horizontal" unit="inch"/>
+<dimension x1="177.927" y1="55.245" x2="177.927" y2="90.932" x3="191.643" y3="73.0885" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="121.793" y1="88.9" x2="121.285" y2="79.121" x3="111.125" y3="84.0105" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="121.285" y1="79.121" x2="121.158" y2="69.342" x3="111.125" y3="74.2315" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
+<dimension x1="127" y1="66.675" x2="167.64" y2="66.675" x3="147.32" y3="47.117" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="167.64" y1="86.36" x2="167.64" y2="66.675" x3="187.96" y3="76.5175" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="177.8" y1="81.915" x2="182.88" y2="81.915" x3="180.34" y3="61.214" textsize="1.778" layer="47" unit="inch"/>
+<text x="-45.72" y="-13.97" size="1.778" layer="21">HUB75
+RGB</text>
+<text x="-69.85" y="33.02" size="1.778" layer="25" align="bottom-center">A</text>
+<text x="-67.31" y="33.02" size="1.778" layer="25" align="bottom-center">B</text>
+<text x="-64.77" y="33.02" size="1.778" layer="25" align="bottom-center">C</text>
+<text x="-62.23" y="33.02" size="1.778" layer="25" align="bottom-center">D</text>
+<text x="-59.69" y="33.02" size="1.016" layer="25" align="bottom-center">G0</text>
+<text x="-57.15" y="33.02" size="1.016" layer="25" align="bottom-center">G1</text>
+<text x="-52.07" y="33.02" size="1.016" layer="25" align="bottom-center">CK</text>
+<text x="-54.61" y="33.02" size="1.016" layer="25" align="bottom-center">LT</text>
+<text x="-62.23" y="20.32" size="1.016" layer="25" rot="R180" align="bottom-center">OE</text>
+<text x="-59.69" y="20.32" size="1.016" layer="25" rot="R180" align="bottom-center">R0</text>
+<text x="-57.15" y="20.32" size="1.016" layer="25" rot="R180" align="bottom-center">R1</text>
+<text x="-69.85" y="15.24" size="1.778" layer="25" align="bottom-center">A</text>
+<text x="-67.31" y="15.24" size="1.778" layer="25" align="bottom-center">B</text>
+<text x="-64.77" y="15.24" size="1.778" layer="25" align="bottom-center">C</text>
+<text x="-52.07" y="15.24" size="1.778" layer="25" align="bottom-center">D</text>
+<text x="-57.15" y="15.24" size="1.016" layer="25" align="bottom-center">R1</text>
+<text x="-54.61" y="15.24" size="1.016" layer="25" align="bottom-center">G1</text>
+<text x="-59.69" y="15.24" size="1.016" layer="25" align="bottom-center">LT</text>
+<text x="-54.61" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">CK</text>
+<text x="-69.85" y="2.54" size="1.016" layer="25" rot="R180" align="bottom-center">OE</text>
+<text x="-69.85" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">R0</text>
+<text x="-64.77" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">R1</text>
+<text x="-69.85" y="-2.54" size="1.016" layer="25" align="bottom-center">G0</text>
+<text x="-64.77" y="-2.54" size="1.016" layer="25" align="bottom-center">G1</text>
+<text x="-59.69" y="-15.24" size="1.778" layer="25" rot="R180" align="bottom-center">A</text>
+<text x="-57.15" y="-15.24" size="1.778" layer="25" rot="R180" align="bottom-center">C</text>
+<text x="-59.69" y="-2.54" size="1.778" layer="25" align="bottom-center">B</text>
+<text x="-57.15" y="-2.54" size="1.778" layer="25" align="bottom-center">D</text>
+<text x="-54.61" y="-2.54" size="1.016" layer="25" align="bottom-center">LT</text>
+<text x="-52.07" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">OE</text>
+<text x="-67.31" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">B0</text>
+<text x="-62.23" y="-15.24" size="1.016" layer="25" rot="R180" align="bottom-center">B1</text>
+<text x="-54.61" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">CK</text>
+<text x="-69.85" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">R0</text>
+<text x="-64.77" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">R1</text>
+<text x="-69.85" y="-20.32" size="1.016" layer="25" align="bottom-center">G0</text>
+<text x="-64.77" y="-20.32" size="1.016" layer="25" align="bottom-center">G1</text>
+<text x="-59.69" y="-33.02" size="1.778" layer="25" rot="R180" align="bottom-center">A</text>
+<text x="-57.15" y="-33.02" size="1.778" layer="25" rot="R180" align="bottom-center">C</text>
+<text x="-59.69" y="-20.32" size="1.778" layer="25" align="bottom-center">B</text>
+<text x="-57.15" y="-20.32" size="1.778" layer="25" align="bottom-center">D</text>
+<text x="-54.61" y="-20.32" size="1.016" layer="25" align="bottom-center">LT</text>
+<text x="-52.07" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">OE</text>
+<text x="-67.31" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">B0</text>
+<text x="-62.23" y="-33.02" size="1.016" layer="25" rot="R180" align="bottom-center">B1</text>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-BHD" urn="urn:adsk.eagle:library:15268170">
@@ -322,47 +494,116 @@ Please contact us for more information.&lt;br&gt;
 &lt;HR&gt;
 Copyright: Würth Elektronik</description>
 <packages>
-<package name="691325110005" urn="urn:adsk.eagle:footprint:16281094/1" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3251 - 3.50 mm Horizontal PCB Header with Flanges 
-&lt;br&gt;&lt;/b&gt;Max Height = 7.2mm , Pitch 3.5mm , 5pins</description>
-<pad name="3" x="0" y="0" drill="1.4"/>
-<pad name="2" x="-3.5" y="0" drill="1.4"/>
-<pad name="1" x="-7" y="0" drill="1.4"/>
-<pad name="4" x="3.5" y="0" drill="1.4"/>
-<pad name="5" x="7" y="0" drill="1.4"/>
-<wire x1="-13.9" y1="-8" x2="13.9" y2="-8" width="0.1" layer="51"/>
-<wire x1="13.9" y1="-8" x2="13.9" y2="1.2" width="0.1" layer="51"/>
-<wire x1="13.9" y1="1.2" x2="-13.9" y2="1.2" width="0.1" layer="51"/>
-<wire x1="-13.9" y1="1.2" x2="-13.9" y2="-8" width="0.1" layer="51"/>
-<wire x1="7.55" y1="1.3" x2="14" y2="1.3" width="0.2" layer="21"/>
-<wire x1="14" y1="1.3" x2="14" y2="-8.1" width="0.2" layer="21"/>
-<wire x1="14" y1="-8.1" x2="-14" y2="-8.1" width="0.2" layer="21"/>
-<wire x1="-14" y1="-8.1" x2="-14" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-14" y1="1.3" x2="-7.45" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-6.45" y1="1.3" x2="-3.95" y2="1.3" width="0.2" layer="21"/>
-<wire x1="-2.95" y1="1.3" x2="-0.45" y2="1.3" width="0.2" layer="21"/>
-<wire x1="0.55" y1="1.3" x2="3.05" y2="1.3" width="0.2" layer="21"/>
-<wire x1="4.05" y1="1.3" x2="6.55" y2="1.3" width="0.2" layer="21"/>
-<text x="-3.5" y="-10" size="1.27" layer="27">&gt;VALUE</text>
-<text x="0" y="2" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<package name="691357310006B" urn="urn:adsk.eagle:footprint:16281251/1" library_version="6">
+<description>&lt;b&gt;WR-TBL Serie 357B - 3.81 mm Double Level Vertical Male PCB Header with Flanges
+&lt;br&gt;&lt;/b&gt;Max Height = 22.4mm , Pitch 3.81mm , 6pins</description>
+<pad name="1" x="-3.81" y="-6.35" drill="1.4"/>
+<pad name="2" x="0" y="-6.35" drill="1.4"/>
+<pad name="3" x="3.81" y="-6.35" drill="1.4"/>
+<pad name="4" x="-3.81" y="6.35" drill="1.4" rot="R180"/>
+<pad name="5" x="0" y="6.35" drill="1.4"/>
+<pad name="6" x="3.81" y="6.35" drill="1.4"/>
+<wire x1="-11.01" y1="7.55" x2="-11.01" y2="-14.35" width="0.1" layer="51"/>
+<wire x1="-11.01" y1="-14.35" x2="11.01" y2="-14.35" width="0.1" layer="51"/>
+<wire x1="11.01" y1="-14.35" x2="11.01" y2="7.55" width="0.1" layer="51"/>
+<wire x1="11.01" y1="7.55" x2="-11.01" y2="7.55" width="0.1" layer="51"/>
+<wire x1="4.505" y1="7.65" x2="11.11" y2="7.65" width="0.2" layer="21"/>
+<wire x1="11.11" y1="7.65" x2="11.11" y2="-14.45" width="0.2" layer="21"/>
+<wire x1="11.11" y1="-14.45" x2="-11.11" y2="-14.45" width="0.2" layer="21"/>
+<wire x1="-11.11" y1="-14.45" x2="-11.11" y2="7.65" width="0.2" layer="21"/>
+<wire x1="-11.11" y1="7.65" x2="-4.305" y2="7.65" width="0.2" layer="21"/>
+<wire x1="-3.305" y1="7.65" x2="-0.505" y2="7.65" width="0.2" layer="21"/>
+<wire x1="0.505" y1="7.65" x2="3.305" y2="7.65" width="0.2" layer="21"/>
+<text x="0" y="8.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-16.5" size="1.27" layer="27">&gt;VALUE</text>
 <polygon width="0.1" layer="39">
-<vertex x="-14.2" y="1.5"/>
-<vertex x="14.2" y="1.5"/>
-<vertex x="14.2" y="-8.3"/>
-<vertex x="-14.2" y="-8.3"/>
+<vertex x="-11.31" y="7.85"/>
+<vertex x="11.31" y="7.85"/>
+<vertex x="11.31" y="-14.65"/>
+<vertex x="-11.31" y="-14.65"/>
 </polygon>
-<circle x="-8.75" y="-1.2" radius="0.1" width="0.4" layer="21"/>
+<circle x="-5.805" y="-7.9" radius="0.2" width="0.4" layer="21"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="691325110005" urn="urn:adsk.eagle:package:16281816/2" type="model" library_version="6">
-<description>&lt;b&gt;WR-TBL Serie 3251 - 3.50 mm Horizontal PCB Header with Flanges 
-&lt;br&gt;&lt;/b&gt;Max Height = 7.2mm , Pitch 3.5mm , 5pins</description>
+<package3d name="691357310006B" urn="urn:adsk.eagle:package:16281973/2" type="model" library_version="6">
+<description>&lt;b&gt;WR-TBL Serie 357B - 3.81 mm Double Level Vertical Male PCB Header with Flanges
+&lt;br&gt;&lt;/b&gt;Max Height = 22.4mm , Pitch 3.81mm , 6pins</description>
 <packageinstances>
-<packageinstance name="691325110005"/>
+<packageinstance name="691357310006B"/>
 </packageinstances>
 </package3d>
 </packages3d>
+</library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="TSSOP20">
+<description>&lt;b&gt;Thin Shrink Small Outline Plastic 20&lt;/b&gt;&lt;p&gt;
+MAX3223-MAX3243.pdf</description>
+<wire x1="-3.1646" y1="-2.2828" x2="3.4646" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="3.4646" y1="2.2828" x2="3.4646" y2="-2.2828" width="0.1524" layer="21"/>
+<wire x1="3.4646" y1="2.2828" x2="-3.1646" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-3.1646" y1="-2.2828" x2="-3.1646" y2="2.2828" width="0.1524" layer="21"/>
+<wire x1="-2.936" y1="-2.0542" x2="3.236" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="3.236" y1="2.0542" x2="3.236" y2="-2.0542" width="0.0508" layer="21"/>
+<wire x1="3.236" y1="2.0542" x2="-2.936" y2="2.0542" width="0.0508" layer="21"/>
+<wire x1="-2.936" y1="-2.0542" x2="-2.936" y2="2.0542" width="0.0508" layer="21"/>
+<circle x="-2.2756" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
+<smd name="1" x="-2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="2" x="-2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="3" x="-1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="4" x="-0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="5" x="-0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="6" x="0.325" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="7" x="0.975" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="8" x="1.625" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="9" x="2.275" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="10" x="2.925" y="-2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="11" x="2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="12" x="2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="13" x="1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="14" x="0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="15" x="0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="16" x="-0.325" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="17" x="-0.975" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="18" x="-1.625" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="19" x="-2.275" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<smd name="20" x="-2.925" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
+<text x="-3.5456" y="-2.0828" size="1.016" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.8362" y="-2.0828" size="1.016" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-3.0266" y1="-3.121" x2="-2.8234" y2="-2.2828" layer="51"/>
+<rectangle x1="-2.3766" y1="-3.121" x2="-2.1734" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.7266" y1="-3.121" x2="-1.5234" y2="-2.2828" layer="51"/>
+<rectangle x1="-1.0766" y1="-3.121" x2="-0.8734" y2="-2.2828" layer="51"/>
+<rectangle x1="-0.4266" y1="-3.121" x2="-0.2234" y2="-2.2828" layer="51"/>
+<rectangle x1="0.2234" y1="-3.121" x2="0.4266" y2="-2.2828" layer="51"/>
+<rectangle x1="0.8734" y1="-3.121" x2="1.0766" y2="-2.2828" layer="51"/>
+<rectangle x1="1.5234" y1="-3.121" x2="1.7266" y2="-2.2828" layer="51"/>
+<rectangle x1="2.1734" y1="-3.121" x2="2.3766" y2="-2.2828" layer="51"/>
+<rectangle x1="2.8234" y1="-3.121" x2="3.0266" y2="-2.2828" layer="51"/>
+<rectangle x1="2.8234" y1="2.2828" x2="3.0266" y2="3.121" layer="51"/>
+<rectangle x1="2.1734" y1="2.2828" x2="2.3766" y2="3.121" layer="51"/>
+<rectangle x1="1.5234" y1="2.2828" x2="1.7266" y2="3.121" layer="51"/>
+<rectangle x1="0.8734" y1="2.2828" x2="1.0766" y2="3.121" layer="51"/>
+<rectangle x1="0.2234" y1="2.2828" x2="0.4266" y2="3.121" layer="51"/>
+<rectangle x1="-0.4266" y1="2.2828" x2="-0.2234" y2="3.121" layer="51"/>
+<rectangle x1="-1.0766" y1="2.2828" x2="-0.8734" y2="3.121" layer="51"/>
+<rectangle x1="-1.7266" y1="2.2828" x2="-1.5234" y2="3.121" layer="51"/>
+<rectangle x1="-2.3766" y1="2.2828" x2="-2.1734" y2="3.121" layer="51"/>
+<rectangle x1="-3.0266" y1="2.2828" x2="-2.8234" y2="3.121" layer="51"/>
+</package>
+</packages>
 </library>
 </libraries>
 <attributes>
@@ -371,6 +612,12 @@ Copyright: Würth Elektronik</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0" drill="0">
+</class>
+<class number="1" name="power" width="0.3048" drill="0">
+</class>
+<class number="2" name="lowpower" width="0.3048" drill="0.4826">
+</class>
+<class number="3" name="usbvcc" width="0" drill="0">
 </class>
 </classes>
 <designrules name="default *">
@@ -557,83 +804,89 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="HUB75RGB" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="13.97" locked="yes" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="LENGTH" value="27.94mm" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.77" y="14.97" locked="yes" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 16 " x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-75.77" y="11.97" locked="yes" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="13.97" locked="yes" size="1.778" layer="27" display="off"/>
+<element name="HUB75RGB" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="-8.89" locked="yes" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="3A" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="LENGTH" value="27.94mm" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-75.77" y="-7.89" locked="yes" size="1.27" layer="25" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 16 " x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Straight" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.77" y="-10.89" locked="yes" size="1.27" layer="27" align="bottom-right"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="-8.89" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="HUB75RGB." library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="-27.94" locked="yes" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="LENGTH" value="27.94mm" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.77" y="-26.94" locked="yes" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 16 " x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-75.77" y="-29.94" locked="yes" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="-27.94" locked="yes" size="1.778" layer="27" display="off"/>
+<element name="HUB75RGB." library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="-26.67" locked="yes" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="3A" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="LENGTH" value="27.94mm" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-75.77" y="-25.67" locked="yes" size="1.27" layer="25" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 16 " x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Straight" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.77" y="-28.67" locked="yes" size="1.27" layer="27" align="bottom-right"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="-26.67" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="HUB08RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="27.94" locked="yes" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="LENGTH" value="27.94mm" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.77" y="28.94" locked="yes" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 16 " x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-75.77" y="25.94" locked="yes" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="27.94" locked="yes" size="1.778" layer="27" display="off"/>
+<element name="HUB08RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="26.67" locked="yes" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="3A" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="LENGTH" value="27.94mm" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-75.77" y="27.67" locked="yes" size="1.27" layer="25" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 16 " x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Straight" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.77" y="24.67" locked="yes" size="1.27" layer="27" align="bottom-right"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="26.67" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="HUB12RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="0" locked="yes" smashed="yes">
-<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="GENDER" value="Male" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="IR" value="3A" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="LENGTH" value="27.94mm" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="SMT" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-75.77" y="1" locked="yes" size="1.27" layer="25" align="bottom-right"/>
-<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 16 " x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="2.54mm" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Straight" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-75.77" y="-2" locked="yes" size="1.27" layer="27" align="bottom-right"/>
-<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="0" locked="yes" size="1.778" layer="27" display="off"/>
+<element name="HUB12RG" library="Wurth_Connectors_WR-BHD" library_urn="urn:adsk.eagle:library:15268170" package="61231620621" package3d_urn="urn:adsk.eagle:package:15268446/6" value=" 61231620621 " x="-60.96" y="8.89" locked="yes" smashed="yes">
+<attribute name="CONTACT-RESISTANCE" value="20mOhm" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/61231620621?ae" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="GENDER" value="Male" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="IR" value="3A" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="LENGTH" value="27.94mm" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="SMT" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-75.77" y="9.89" locked="yes" size="1.27" layer="25" align="bottom-right"/>
+<attribute name="PACKAGING" value="Tape and Reel with Cap" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PART-NUMBER" value=" 61231620621 " x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 16 " x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="2.54mm" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Straight" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-75.77" y="6.89" locked="yes" size="1.27" layer="27" align="bottom-right"/>
+<attribute name="WORKING-VOLTAGE" value="250V(AC)" x="-60.96" y="8.89" locked="yes" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J3" library="Wurth_Connectors_WR-TBL Pluggable Connector" library_urn="urn:adsk.eagle:library:16280984" package="691325110005" package3d_urn="urn:adsk.eagle:package:16281816/2" value=" 691325110005 " x="27.94" y="-34.1" smashed="yes">
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691325110005?ae" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="IR-UL" value="10A" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="IR-VDE" value="10.5A" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="MOUNT" value="THT" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="27.94" y="-32.1" size="1.27" layer="25" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 691325110005 " x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="PINS" value=" 5 " x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="PITCH" value="3.5mm" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="TYPE" value="Horizontal" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="24.44" y="-44.1" size="1.27" layer="27"/>
-<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
-<attribute name="WORKING-VOLTAGE-VDE" value="300V (AC)" x="27.94" y="-34.1" size="1.778" layer="27" display="off"/>
+<element name="U8" library="microbuilder" package="TSSOP20" value="74AHCT245" x="-33.0835" y="-7.0485" smashed="yes" rot="R90">
+<attribute name="NAME" x="-32.1437" y="-8.3311" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-34.8995" y="-3.8481" size="1.016" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="U9" library="microbuilder" package="TSSOP20" value="74AHCT245" x="-33.7185" y="-14.224" smashed="yes" rot="R90">
+<attribute name="NAME" x="-32.3977" y="-12.5856" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="-32.8294" y="-9.8425" size="1.016" layer="27" ratio="10" rot="R270"/>
+</element>
+<element name="J1" library="Wurth_Connectors_WR-TBL Pluggable Connector" library_urn="urn:adsk.eagle:library:16280984" package="691357310006B" package3d_urn="urn:adsk.eagle:package:16281973/2" value="691357310006B" x="30.48" y="-27.75" smashed="yes">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/691357310006B?ae" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="IR-UL" value="10A" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="MOUNT" value="THT" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="30.48" y="-19.25" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value="691357310006B" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 6 " x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="3.81mm" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Double Level Horizontal" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="26.98" y="-44.25" size="1.27" layer="27"/>
+<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" x="30.48" y="-27.75" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -718,6 +971,243 @@ design rules under a new name.</description>
 <vertex x="42.85" y="-40.83"/>
 <vertex x="42.85" y="-35.62"/>
 </polygon>
+<contactref element="U8" pad="19"/>
+<contactref element="U8" pad="10"/>
+<contactref element="U9" pad="19"/>
+<contactref element="U9" pad="10"/>
+<contactref element="U8" pad="2"/>
+<contactref element="U8" pad="3"/>
+<contactref element="HUB75RGB." pad="4"/>
+<contactref element="HUB75RGB." pad="16"/>
+<contactref element="HUB75RGB." pad="8"/>
+<contactref element="HUB75RGB" pad="4"/>
+<contactref element="HUB75RGB" pad="16"/>
+<contactref element="HUB75RGB" pad="8"/>
+<contactref element="HUB08RG" pad="1"/>
+<contactref element="HUB08RG" pad="3"/>
+<contactref element="HUB08RG" pad="5"/>
+<contactref element="HUB08RG" pad="13"/>
+<contactref element="HUB08RG" pad="15"/>
+<contactref element="HUB12RG" pad="3"/>
+<contactref element="HUB12RG" pad="5"/>
+<contactref element="HUB12RG" pad="7"/>
+<contactref element="HUB12RG" pad="9"/>
+<contactref element="HUB12RG" pad="11"/>
+<contactref element="HUB12RG" pad="13"/>
+<contactref element="HUB12RG" pad="15"/>
+</signal>
+<signal name="+5V" class="3">
+<contactref element="U8" pad="20"/>
+<contactref element="U8" pad="1"/>
+<contactref element="U9" pad="20"/>
+<contactref element="U9" pad="1"/>
+<wire x1="-30.8007" y1="-17.149" x2="-36.6363" y2="-17.149" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-9.9735" x2="-36.6363" y2="-17.149" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.1657" y1="-9.9735" x2="-36.0013" y2="-9.9735" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="OE_3V">
+<contactref element="U8" pad="9"/>
+</signal>
+<signal name="CLK_3V">
+<contactref element="U9" pad="8"/>
+</signal>
+<signal name="ADDRC_3V">
+<contactref element="U8" pad="6"/>
+</signal>
+<signal name="ADDRD_3V">
+<contactref element="U8" pad="4"/>
+</signal>
+<signal name="R1_3V">
+<contactref element="U9" pad="2"/>
+</signal>
+<signal name="B1_3V">
+<contactref element="U9" pad="4"/>
+</signal>
+<signal name="G1_3V">
+<contactref element="U9" pad="3"/>
+</signal>
+<signal name="ADDRB_3V">
+<contactref element="U9" pad="9"/>
+</signal>
+<signal name="ADDRE_3V">
+<contactref element="U8" pad="8"/>
+</signal>
+<signal name="G2_3V">
+<contactref element="U9" pad="5"/>
+</signal>
+<signal name="ADDRA_3V">
+<contactref element="U8" pad="5"/>
+</signal>
+<signal name="LAT_3V">
+<contactref element="U8" pad="7"/>
+</signal>
+<signal name="B2_3V">
+<contactref element="U9" pad="7"/>
+</signal>
+<signal name="R2_3V">
+<contactref element="U9" pad="6"/>
+</signal>
+<signal name="M1_R1">
+<contactref element="U9" pad="18"/>
+<contactref element="HUB75RGB." pad="1"/>
+<contactref element="HUB75RGB" pad="1"/>
+<contactref element="HUB08RG" pad="9"/>
+<contactref element="HUB12RG" pad="12"/>
+<wire x1="-69.85" y1="-11.765" x2="-69.85" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="11.765" x2="-69.85" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.69" y1="23.795" x2="-57.15" y2="11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-15.849" x2="-69.85" y2="-11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_B1">
+<contactref element="U9" pad="16"/>
+<contactref element="HUB75RGB." pad="3"/>
+<contactref element="HUB75RGB" pad="3"/>
+<wire x1="-67.31" y1="-11.765" x2="-67.31" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-14.549" x2="-67.31" y2="-11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_R2">
+<contactref element="U9" pad="14"/>
+<contactref element="HUB75RGB." pad="5"/>
+<contactref element="HUB75RGB" pad="5"/>
+<contactref element="HUB08RG" pad="11"/>
+<wire x1="-64.77" y1="-11.765" x2="-64.77" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-13.249" x2="-64.77" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="23.795" x2="-64.77" y2="-11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_B2">
+<contactref element="U9" pad="13"/>
+<contactref element="HUB75RGB." pad="7"/>
+<contactref element="HUB75RGB" pad="7"/>
+<wire x1="-62.23" y1="-11.765" x2="-62.23" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-12.599" x2="-62.23" y2="-11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_A">
+<contactref element="U8" pad="15"/>
+<contactref element="HUB75RGB." pad="9"/>
+<contactref element="HUB75RGB" pad="9"/>
+<contactref element="HUB08RG" pad="2"/>
+<contactref element="HUB12RG" pad="2"/>
+<wire x1="-59.69" y1="-11.765" x2="-59.69" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-6.7235" x2="-59.69" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="11.765" x2="-59.69" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="29.545" x2="-69.85" y2="11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_C">
+<contactref element="U8" pad="14"/>
+<contactref element="HUB75RGB." pad="11"/>
+<contactref element="HUB75RGB" pad="11"/>
+<contactref element="HUB08RG" pad="6"/>
+<contactref element="HUB12RG" pad="6"/>
+<wire x1="-57.15" y1="-11.765" x2="-57.15" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-6.0735" x2="-57.15" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.77" y1="11.765" x2="-57.15" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-64.77" y1="29.545" x2="-64.77" y2="11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_CLK">
+<contactref element="U9" pad="12"/>
+<contactref element="HUB75RGB." pad="13"/>
+<contactref element="HUB75RGB" pad="13"/>
+<contactref element="HUB08RG" pad="16"/>
+<contactref element="HUB12RG" pad="8"/>
+<wire x1="-54.61" y1="-11.765" x2="-54.61" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-11.949" x2="-54.61" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.23" y1="11.765" x2="-54.61" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="29.545" x2="-62.23" y2="11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_D">
+<contactref element="U8" pad="16"/>
+<contactref element="HUB75RGB." pad="12"/>
+<contactref element="HUB75RGB" pad="12"/>
+<contactref element="HUB08RG" pad="8"/>
+<contactref element="HUB12RG" pad="16"/>
+<wire x1="-57.15" y1="-6.015" x2="-57.15" y2="-23.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-52.07" y1="11.765" x2="-57.15" y2="-6.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.23" y1="29.545" x2="-52.07" y2="11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-7.3735" x2="-57.15" y2="-6.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_B">
+<contactref element="U9" pad="11"/>
+<contactref element="HUB75RGB." pad="10"/>
+<contactref element="HUB75RGB" pad="10"/>
+<contactref element="HUB08RG" pad="4"/>
+<contactref element="HUB12RG" pad="4"/>
+<wire x1="-59.69" y1="-6.015" x2="-59.69" y2="-23.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="11.765" x2="-59.69" y2="-6.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="29.545" x2="-67.31" y2="11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-11.299" x2="-59.69" y2="-6.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_G2">
+<contactref element="U9" pad="15"/>
+<contactref element="HUB75RGB." pad="6"/>
+<contactref element="HUB75RGB" pad="6"/>
+<contactref element="HUB08RG" pad="12"/>
+<wire x1="-64.77" y1="-6.015" x2="-64.77" y2="-23.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-13.899" x2="-64.77" y2="-6.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-57.15" y1="29.545" x2="-64.77" y2="-6.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_G1">
+<contactref element="U9" pad="17"/>
+<contactref element="HUB75RGB." pad="2"/>
+<contactref element="HUB75RGB" pad="2"/>
+<contactref element="HUB08RG" pad="10"/>
+<contactref element="HUB12RG" pad="14"/>
+<wire x1="-69.85" y1="-6.015" x2="-69.85" y2="-23.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="11.765" x2="-69.85" y2="-6.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.69" y1="29.545" x2="-54.61" y2="11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.6363" y1="-15.199" x2="-54.61" y2="11.765" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_E">
+<contactref element="U8" pad="12"/>
+</signal>
+<signal name="M1_LAT">
+<contactref element="U8" pad="13"/>
+<contactref element="HUB75RGB." pad="14"/>
+<contactref element="HUB75RGB" pad="14"/>
+<contactref element="HUB08RG" pad="14"/>
+<contactref element="HUB12RG" pad="10"/>
+<wire x1="-54.61" y1="-6.015" x2="-54.61" y2="-23.795" width="0" layer="19" extent="1-1"/>
+<wire x1="-59.69" y1="11.765" x2="-54.61" y2="-6.015" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="29.545" x2="-59.69" y2="11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-5.4235" x2="-54.61" y2="-6.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="M1_OE">
+<contactref element="U8" pad="11"/>
+<contactref element="HUB75RGB." pad="15"/>
+<contactref element="HUB75RGB" pad="15"/>
+<contactref element="HUB08RG" pad="7"/>
+<contactref element="HUB12RG" pad="1"/>
+<wire x1="-52.07" y1="-11.765" x2="-52.07" y2="-29.545" width="0" layer="19" extent="1-1"/>
+<wire x1="-36.0013" y1="-4.1235" x2="-52.07" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="6.015" x2="-52.07" y2="-11.765" width="0" layer="19" extent="1-1"/>
+<wire x1="-62.23" y1="23.795" x2="-69.85" y2="6.015" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GND1">
+</signal>
+<signal name="M1_R3">
+</signal>
+<signal name="M1_B3">
+</signal>
+<signal name="M1_R4">
+</signal>
+<signal name="M1_B4">
+</signal>
+<signal name="M1_A1">
+</signal>
+<signal name="M1_C1">
+</signal>
+<signal name="M1_CLK1">
+</signal>
+<signal name="M1_D1">
+</signal>
+<signal name="M1_B5">
+</signal>
+<signal name="M1_G3">
+</signal>
+<signal name="M1_G4">
+</signal>
+<signal name="M1_LAT1">
+</signal>
+<signal name="M1_OE1">
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -740,6 +1230,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
