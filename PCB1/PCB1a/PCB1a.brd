@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -728,131 +728,6 @@ Copyright: Würth Elektronik</description>
 </package3d>
 </packages3d>
 </library>
-<library name="Wurth_Signal &amp; Communications_WE-RJ45_LAN" urn="urn:adsk.eagle:library:14284239">
-<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Signal &amp; Communications - Filtered Connectors - WE-RJ45 LAN&lt;br&gt;
-
-&lt;Hr&gt;
-&lt;BR&gt;
-&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
-&lt;TR&gt;   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;
-      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------------------------&lt;BR&gt;
-&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
-  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
-&lt;BR&gt;
-      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;
-      ----O--------&lt;BR&gt;
-      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-   
-&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
-      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;
-       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-
-  &lt;TR&gt;
-    &lt;TD COLSPAN=7&gt;&amp;nbsp;
-    &lt;/TD&gt;
-  &lt;/TR&gt;
-  
-&lt;/TABLE&gt;
-&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
-
-&lt;HR&gt;&lt;BR&gt;
-&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
-EMC &amp; Inductive Solutions&lt;br&gt;
-
-Max-Eyth-Str.1&lt;br&gt;
-D-74638 Waldenburg&lt;br&gt;
-&lt;br&gt;
-Tel: +49 (0)7942-945-0&lt;br&gt;
-Fax:+49 (0)7942-945-5000&lt;br&gt;
-&lt;br&gt;
-&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
-&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
-&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
-Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
-Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
-Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
-Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
- &lt;br&gt;
-Please contact us for more information.&lt;br&gt;
-&lt;HR&gt;
-&lt;br&gt;Eagle Version 9, Library Revision 2023b, 2023-08-21&lt;br&gt;
-&lt;HR&gt;
-Copyright: Würth Elektronik</description>
-<packages>
-<package name="7498011211" urn="urn:adsk.eagle:footprint:12863436/2" library_version="34">
-<description>&lt;B&gt;WE-RJ45 LAN Transformer
-&lt;BR&gt;&lt;/B&gt;10/100 Base-T</description>
-<wire x1="-7.975" y1="-10.81" x2="7.975" y2="-10.81" width="0.1" layer="51"/>
-<wire x1="7.975" y1="10.84" x2="-7.975" y2="10.84" width="0.1" layer="51"/>
-<wire x1="-7.975" y1="-10.81" x2="-7.975" y2="10.84" width="0.1" layer="51"/>
-<wire x1="7.975" y1="-10.81" x2="7.975" y2="10.84" width="0.1" layer="51"/>
-<wire x1="8.075" y1="-10.91" x2="-8.075" y2="-10.91" width="0.2" layer="21"/>
-<wire x1="-8.075" y1="2" x2="-8.075" y2="10.94" width="0.2" layer="21"/>
-<wire x1="8.075" y1="10.94" x2="8.075" y2="2" width="0.2" layer="21"/>
-<wire x1="8.075" y1="-2" x2="8.075" y2="-10.91" width="0.2" layer="21"/>
-<wire x1="8.075" y1="10.94" x2="6.4" y2="10.94" width="0.2" layer="21"/>
-<wire x1="-6.4" y1="10.94" x2="-8.075" y2="10.94" width="0.2" layer="21"/>
-<wire x1="-8.075" y1="-2" x2="-8.075" y2="-10.91" width="0.2" layer="21"/>
-<smd name="5" x="-0.635" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="4" x="-1.905" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="6" x="0.635" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="7" x="1.905" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="8" x="3.175" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="3" x="-3.175" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="2" x="-4.445" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="1" x="-5.715" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="S2" x="9.145" y="0" dx="3.3" dy="3.3" layer="1" rot="R180"/>
-<smd name="S1" x="-9.145" y="0" dx="3.3" dy="3.3" layer="1" rot="R180"/>
-<smd name="9" x="4.445" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<smd name="10" x="5.715" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
-<text x="0" y="13.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
-<hole x="5.715" y="0" drill="3.22"/>
-<hole x="-5.715" y="0" drill="3.22"/>
-<polygon width="0.1" layer="39">
-<vertex x="11" y="-11.11"/>
-<vertex x="-11" y="-11.11"/>
-<vertex x="-11" y="12.9"/>
-<vertex x="11" y="12.9"/>
-</polygon>
-<circle x="-7.1" y="12.3" radius="0.2" width="0.4" layer="21"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="7498011211" urn="urn:adsk.eagle:package:12863525/4" type="model" library_version="34">
-<description>&lt;B&gt;WE-RJ45 LAN Transformer
-&lt;BR&gt;&lt;/B&gt;10/100 Base-T</description>
-<packageinstances>
-<packageinstance name="7498011211"/>
-</packageinstances>
-</package3d>
-</packages3d>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1146,18 +1021,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="39.82" y="33.065" size="1.27" layer="27" rot="R90"/>
 <attribute name="WE-NUMBER" value="618009231421" x="45.955" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="WORKING-VOLTAGE" value="125 V(AC)" x="45.955" y="16.51" size="1.778" layer="27" rot="R90" display="off"/>
-</element>
-<element name="T1" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" package="7498011211" package3d_urn="urn:adsk.eagle:package:12863525/4" value=" 7498011211 " x="40.64" y="-22.86" smashed="yes" rot="R90">
-<attribute name="DATA-RATE" value="10/100 Base-T" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011211?ae" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="LED" value="green-yellow" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="MOUNT" value="SMT" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="27.14" y="-22.86" size="1.27" layer="25" rot="R90" align="bottom-center"/>
-<attribute name="PART-NUMBER" value=" 7498011211 " x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="POE" value="non-PoE" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PORTS" value=" 1 " x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="USB" value="No" x="40.64" y="-22.86" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="53.64" y="-22.86" size="1.27" layer="27" rot="R90" align="bottom-center"/>
 </element>
 </elements>
 <signals>
