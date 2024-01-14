@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1136,6 +1136,478 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Connectors_WR-DSUB" urn="urn:adsk.eagle:library:16444967">
+<description>&lt;BR&gt;Wurth Elektronik - Electromechanical Components - Connectors - Input/Output connectors - WR-DSUB &lt;br&gt;
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023a, 2023-03-21&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="618009231421" urn="urn:adsk.eagle:footprint:16444972/2" library_version="3">
+<description>&lt;b&gt;WR-DSUB&lt;/b&gt; &lt;br&gt;10.3mm Male Angled PCB Connector with Hex Screw, 9 Pins</description>
+<wire x1="-15.405" y1="10.325" x2="15.405" y2="10.325" width="0.1" layer="51"/>
+<wire x1="15.405" y1="10.325" x2="15.405" y2="-4.345" width="0.1" layer="51"/>
+<wire x1="-15.405" y1="-4.345" x2="-15.405" y2="10.325" width="0.1" layer="51"/>
+<wire x1="15.405" y1="-4.345" x2="15.405" y2="-10.325" width="0.1" layer="51" style="shortdash"/>
+<wire x1="15.405" y1="-10.325" x2="-15.405" y2="-10.325" width="0.1" layer="51" style="shortdash"/>
+<wire x1="-15.405" y1="-10.325" x2="-15.405" y2="-4.345" width="0.1" layer="51" style="shortdash"/>
+<wire x1="15.405" y1="-4.345" x2="-15.405" y2="-4.345" width="0.1" layer="51"/>
+<wire x1="-15.505" y1="10.425" x2="15.505" y2="10.425" width="0.2" layer="21"/>
+<wire x1="15.505" y1="10.425" x2="15.505" y2="-4.445" width="0.2" layer="21"/>
+<wire x1="15.505" y1="-4.445" x2="-15.505" y2="-4.445" width="0.2" layer="21"/>
+<wire x1="-15.505" y1="-4.445" x2="-15.505" y2="10.425" width="0.2" layer="21"/>
+<wire x1="0.3" y1="-3.405" x2="0.3" y2="-4.305" width="0.1" layer="48" style="shortdash"/>
+<wire x1="0.3" y1="-4.305" x2="0.1" y2="-4.005" width="0.1" layer="48"/>
+<wire x1="0.3" y1="-4.305" x2="0.5" y2="-4.005" width="0.1" layer="48"/>
+<pad name="3" x="0" y="8.715" drill="1.09"/>
+<pad name="2" x="-2.77" y="8.715" drill="1.09"/>
+<pad name="1" x="-5.54" y="8.715" drill="1.09"/>
+<pad name="4" x="2.77" y="8.715" drill="1.09"/>
+<pad name="5" x="5.54" y="8.715" drill="1.09"/>
+<pad name="S1" x="-12.495" y="7.295" drill="3.2"/>
+<pad name="S2" x="12.495" y="7.295" drill="3.2"/>
+<pad name="6" x="-4.155" y="5.875" drill="1.09"/>
+<pad name="7" x="-1.385" y="5.875" drill="1.09"/>
+<pad name="8" x="1.385" y="5.875" drill="1.09"/>
+<pad name="9" x="4.155" y="5.875" drill="1.09"/>
+<text x="16.5" y="8.875" size="1.27" layer="25">&gt;NAME</text>
+<text x="16.555" y="6.135" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.4" y="-3.305" size="0.4064" layer="48">EDGE OF PCB Board</text>
+<polygon width="0.1" layer="39">
+<vertex x="-15.705" y="10.625"/>
+<vertex x="15.705" y="10.625"/>
+<vertex x="15.705" y="-4.645"/>
+<vertex x="-15.705" y="-4.645"/>
+</polygon>
+<circle x="-7.2" y="8.695" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="618009231421" urn="urn:adsk.eagle:package:16445076/3" type="model" library_version="3">
+<description>&lt;b&gt;WR-DSUB&lt;/b&gt; &lt;br&gt;10.3mm Male Angled PCB Connector with Hex Screw, 9 Pins</description>
+<packageinstances>
+<packageinstance name="618009231421"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="9MT_S" urn="urn:adsk.eagle:symbol:16444997/1" library_version="3">
+<description>9 Pins Male THT</description>
+<pin name="1" x="-10.16" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="2" x="-5.08" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="3" x="0" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="4" x="5.08" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="5" x="10.16" y="7.62" visible="pad" length="middle" rot="R270"/>
+<pin name="6" x="-7.62" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="7" x="-2.54" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="8" x="2.54" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="9" x="7.62" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="SHIELD" x="10.16" y="-7.62" visible="pad" length="short" rot="R90"/>
+<wire x1="-10.6043875" y1="2.54" x2="10.6043875" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="10.6043875" y1="2.54" x2="12.0642125" y2="0.695165625" width="0.4064" layer="94" curve="-103.290572"/>
+<wire x1="12.0642125" y1="0.695165625" x2="11.272871875" y2="-2.65484375" width="0.4064" layer="94"/>
+<wire x1="11.272871875" y1="-2.65484375" x2="9.81305" y2="-3.81" width="0.4064" layer="94" curve="-76.709076"/>
+<wire x1="9.81305" y1="-3.81" x2="-9.81305" y2="-3.81" width="0.4064" layer="94"/>
+<wire x1="-10.6043875" y1="2.54" x2="-12.0642125" y2="0.695165625" width="0.4064" layer="94" curve="103.290572"/>
+<wire x1="-9.81305" y1="-3.81" x2="-11.272871875" y2="-2.65484375" width="0.4064" layer="94" curve="-76.709052"/>
+<wire x1="-11.272871875" y1="-2.65484375" x2="-12.0642125" y2="0.695165625" width="0.4064" layer="94"/>
+<wire x1="-10.795" y1="3.175" x2="11.2" y2="3.175" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.2" y1="3.175" x2="12.7" y2="1.675" width="0.254" layer="94" style="shortdash" curve="-90"/>
+<wire x1="10.16" y1="-4.445" x2="10.16" y2="-5.08" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.2" y1="-4.44" x2="10.328834375" y2="-4.44" width="0.254" layer="94" style="shortdash"/>
+<wire x1="10.328834375" y1="-4.44" x2="11.78405" y2="-3.3038" width="0.254" layer="94" style="shortdash" curve="75.963901"/>
+<wire x1="11.78405" y1="-3.3038" x2="12.7" y2="0.36" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="2.58" x2="-10.16" y2="0.4" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.58" x2="-5.08" y2="0.4" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.58" x2="0" y2="0.4" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.58" x2="5.08" y2="0.4" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="2.58" x2="10.16" y2="0.4" width="0.1524" layer="94"/>
+<text x="13.78" y="1.66" size="1.27" layer="95">&gt;NAME</text>
+<text x="13.88" y="-0.88" size="1.27" layer="96">&gt;VALUE</text>
+<text x="10.9" y="-5.32" size="0.8128" layer="94">shield</text>
+<circle x="10.16" y="0.508" radius="0.762" width="0.254" layer="94"/>
+<circle x="5.08" y="0.508" radius="0.762" width="0.254" layer="94"/>
+<circle x="0" y="0.508" radius="0.762" width="0.254" layer="94"/>
+<circle x="-5.08" y="0.508" radius="0.762" width="0.254" layer="94"/>
+<circle x="-10.16" y="0.508" radius="0.762" width="0.254" layer="94"/>
+<circle x="7.62" y="-1.778" radius="0.762" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.778" radius="0.762" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.778" radius="0.762" width="0.254" layer="94"/>
+<circle x="-7.62" y="-1.778" radius="0.762" width="0.254" layer="94"/>
+<circle x="10.16" y="0.508" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="5.08" y="0.508" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="0" y="0.508" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="-5.08" y="0.508" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="-10.16" y="0.508" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="-7.62" y="-1.778" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="-2.54" y="-1.778" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="2.54" y="-1.778" radius="0.4318" width="0.9144" layer="94"/>
+<circle x="7.62" y="-1.778" radius="0.4318" width="0.9144" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="6180XX231421_618009231421" urn="urn:adsk.eagle:component:16445140/3" prefix="J" library_version="3">
+<description>&lt;b&gt;WR-DSUB 10.30 mm Male Angled PCB Connector w. Hex Screw 
+&lt;/B&gt;&lt;BR&gt;&lt;BR&gt;
+&lt;b&gt;Kind Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Quality Class:3 as per CECC 75 301-802
+&lt;BR&gt;Gender:Male
+&lt;BR&gt;Type:Angled
+&lt;BR&gt;Insulator Material:PBT
+&lt;BR&gt;Insulator Flammability Rating:UL94 V-0
+&lt;BR&gt;Color:Black
+&lt;BR&gt;Contact Material:Copper Alloy
+&lt;BR&gt;Contact Plating:Selective Gold
+&lt;BR&gt;Contact Type:Stamped
+&lt;BR&gt;Shielding Material:Steel
+&lt;BR&gt;Shielding Plating:Nickel
+&lt;BR&gt;&lt;BR&gt;
+
+&lt;b&gt;General Information&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;Operating Temperature:-55 up to +105 °C
+&lt;BR&gt;Compliance:RoHS&lt;BR&gt;&lt;BR&gt;
+
+&lt;b&gt;Electrical Properties&lt;/b&gt;&lt;BR&gt;
+&lt;BR&gt;IR1:3 A
+&lt;BR&gt;Working Voltage:125 V (AC)
+&lt;BR&gt;Withstanding Voltage:1000 V (AC)
+&lt;BR&gt;Contact Resistance:30 mΩ
+&lt;BR&gt;
+&lt;BR&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/catalog/media/o60849v209%20Family_I-O_DSUB_PCB_Male_w-screw_6180xx231421_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/catalog/media/o60849v209%20Family_I-O_DSUB_PCB_Male_w-screw_6180xx231421_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="https://www.we-online.com/en/components/products/DSUB_MALE_ANGLED_PCB_CONNECTOR_W_HEX_SCREW_10_30MM_6180XX231421"&gt;https://www.we-online.com/en/components/products/DSUB_MALE_ANGLED_PCB_CONNECTOR_W_HEX_SCREW_10_30MM_6180XX231421&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2023-03-21&lt;br&gt;
+2023 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="9MT_S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="618009231421">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16445076/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/618009231421?ae"/>
+<attribute name="GENDER" value="Male"/>
+<attribute name="PART-NUMBER" value="618009231421"/>
+<attribute name="PINS" value=" 9 "/>
+<attribute name="TYPE" value="Angled"/>
+<attribute name="VALUE" value="618009231421"/>
+<attribute name="WE-NUMBER" value="618009231421" constant="no"/>
+<attribute name="WORKING-VOLTAGE" value="125 V(AC)"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Wurth_Signal &amp; Communications_WE-RJ45_LAN" urn="urn:adsk.eagle:library:14284239">
+<description>&lt;BR&gt;Wurth Elektronik - Passive Components - Signal &amp; Communications - Filtered Connectors - WE-RJ45 LAN&lt;br&gt;
+
+&lt;Hr&gt;
+&lt;BR&gt;
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-5000&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/web/en/electronic_components/produkte_pb/bauteilebibliotheken/eagle_4.php"&gt;www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Disclaimer: While Würth Elektronik eiSos has made every reasonable effort to ensure the accuracy of the PCB layout models provided, &lt;br&gt;
+Würth Elektronik eiSos does not guarantee the exemption of error on the PCB layout models, nor does Würth Elektronik eiSos guarantee that the PCB layout model is current. &lt;br&gt;
+Würth Elektronik eiSos reserves the right to make any adjustments at any time without notice. &lt;br&gt;
+Würth Elektronik eiSos expressly disclaims all implied warranties regarding this PCB layout model. &lt;br&gt;
+ &lt;br&gt;
+Please contact us for more information.&lt;br&gt;
+&lt;HR&gt;
+&lt;br&gt;Eagle Version 9, Library Revision 2023b, 2023-08-21&lt;br&gt;
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="7498011211" urn="urn:adsk.eagle:footprint:12863436/2" library_version="34">
+<description>&lt;B&gt;WE-RJ45 LAN Transformer
+&lt;BR&gt;&lt;/B&gt;10/100 Base-T</description>
+<wire x1="-7.975" y1="-10.81" x2="7.975" y2="-10.81" width="0.1" layer="51"/>
+<wire x1="7.975" y1="10.84" x2="-7.975" y2="10.84" width="0.1" layer="51"/>
+<wire x1="-7.975" y1="-10.81" x2="-7.975" y2="10.84" width="0.1" layer="51"/>
+<wire x1="7.975" y1="-10.81" x2="7.975" y2="10.84" width="0.1" layer="51"/>
+<wire x1="8.075" y1="-10.91" x2="-8.075" y2="-10.91" width="0.2" layer="21"/>
+<wire x1="-8.075" y1="2" x2="-8.075" y2="10.94" width="0.2" layer="21"/>
+<wire x1="8.075" y1="10.94" x2="8.075" y2="2" width="0.2" layer="21"/>
+<wire x1="8.075" y1="-2" x2="8.075" y2="-10.91" width="0.2" layer="21"/>
+<wire x1="8.075" y1="10.94" x2="6.4" y2="10.94" width="0.2" layer="21"/>
+<wire x1="-6.4" y1="10.94" x2="-8.075" y2="10.94" width="0.2" layer="21"/>
+<wire x1="-8.075" y1="-2" x2="-8.075" y2="-10.91" width="0.2" layer="21"/>
+<smd name="5" x="-0.635" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="4" x="-1.905" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="6" x="0.635" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="7" x="1.905" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="8" x="3.175" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="3" x="-3.175" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="2" x="-4.445" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="1" x="-5.715" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="S2" x="9.145" y="0" dx="3.3" dy="3.3" layer="1" rot="R180"/>
+<smd name="S1" x="-9.145" y="0" dx="3.3" dy="3.3" layer="1" rot="R180"/>
+<smd name="9" x="4.445" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<smd name="10" x="5.715" y="11.68" dx="2.03" dy="0.76" layer="1" rot="R270"/>
+<text x="0" y="13.5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-13" size="1.27" layer="27" align="bottom-center">&gt;VALUE</text>
+<hole x="5.715" y="0" drill="3.22"/>
+<hole x="-5.715" y="0" drill="3.22"/>
+<polygon width="0.1" layer="39">
+<vertex x="11" y="-11.11"/>
+<vertex x="-11" y="-11.11"/>
+<vertex x="-11" y="12.9"/>
+<vertex x="11" y="12.9"/>
+</polygon>
+<circle x="-7.1" y="12.3" radius="0.2" width="0.4" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="7498011211" urn="urn:adsk.eagle:package:12863525/4" type="model" library_version="34">
+<description>&lt;B&gt;WE-RJ45 LAN Transformer
+&lt;BR&gt;&lt;/B&gt;10/100 Base-T</description>
+<packageinstances>
+<packageinstance name="7498011211"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="7498011211" urn="urn:adsk.eagle:symbol:14284263/3" library_version="34">
+<pin name="RD+" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="CTD" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="RD-" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="TD+" x="-12.7" y="7.62" length="middle" direction="pas"/>
+<pin name="TD-" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="CRD" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="LED2_Y-" x="15.24" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED2_Y+" x="15.24" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED1_G+" x="15.24" y="5.08" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="LED1_G-" x="15.24" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD1" x="-12.7" y="-12.7" length="middle" direction="pas"/>
+<pin name="SHIELD2" x="-12.7" y="-15.24" length="middle" direction="pas"/>
+<text x="0" y="15.24" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-20.32" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="15.24" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="2.54" y="2.54" size="0.8636" layer="94" align="center-left">LED1_G-</text>
+<text x="2.54" y="5.08" size="0.8636" layer="94" align="center-left">LED1_G+</text>
+<text x="2.54" y="0" size="0.8636" layer="94" align="center-left">LED2_Y+</text>
+<text x="2.54" y="-2.54" size="0.8636" layer="94" align="center-left">LED2_Y-</text>
+<wire x1="-7.62" y1="12.7" x2="6.35" y2="12.7" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="13.97" x2="11.43" y2="13.97" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="13.97" x2="11.43" y2="-11.43" width="0.254" layer="94" style="shortdash"/>
+<wire x1="11.43" y1="-11.43" x2="-7.62" y2="-11.43" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-11.43" x2="-7.62" y2="-15.24" width="0.254" layer="94" style="shortdash"/>
+<wire x1="6.35" y1="12.7" x2="6.35" y2="10.16" width="0.254" layer="94"/>
+<wire x1="6.35" y1="10.16" x2="8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="10.16" x2="8.89" y2="7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-10.16" x2="6.35" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-7.62" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-7.62" x2="8.89" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-5.08" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="WE-RJ45_7498011211" urn="urn:adsk.eagle:component:14284337/10" prefix="T" library_version="34">
+<description>&lt;b&gt;WE-RJ45 LAN Transformer&lt;br&gt;
+&lt;br&gt;Characteristics 
+&lt;br&gt;&lt;br&gt;&lt;/b&gt;RJ45 Connector with integrated transformer / common mode choke
+&lt;br&gt;Power over Ethernet up to 50 Watt and speeds up to 10 Gbit/s
+&lt;br&gt;Available in SMD, THT and THT with USB
+&lt;br&gt;Compliant with standards: IEEE 802.3u, IEEE 802.3ab, IEEE 802.3af, IEEE 802.3at, IEEE 802.3an and upcoming IEE 802.3bt
+&lt;b&gt;&lt;br&gt;&lt;br&gt;Applications 
+&lt;/b&gt;&lt;br&gt;&lt;br&gt;Suitable for industrial temperatures from –40 °C up to +85 °C
+&lt;br&gt;Compatible to Industrial Ethernet systems like EtherCAT or Profinet
+&lt;br&gt;Compliant with most IC’s for Ethernet applications such as Microchip, Texas Instruments, Broadcom, Linear Technology
+&lt;br&gt;Hubs, Routers, Switches, IP cameras, IoT applications
+&lt;br&gt;&lt;br&gt;
+&lt;br&gt;&lt;a href="https://www.we-online.com/components/media/o35731v209%20Family-WE-RJ45LAN-7499xxxxxx.jpg" title="Enlarge picture"&gt;
+&lt;img src="https://www.we-online.com/components/media/o35731v209%20Family-WE-RJ45LAN-7499xxxxxx.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="www.we-online.com/catalog/WE-LAN-RJ45/?utm_source=eagle_model&amp;utm_medium=description_link&amp;utm_campaign=eisos_eagle"&gt;www.we-online.com/components/products/WE-LAN-RJ45&lt;/a&gt;&lt;p&gt;
+
+Updated by Ella Wu 2023-08-16 &lt;br&gt;
+2023 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="7498011211" x="0" y="0" swaplevel="1"/>
+</gates>
+<devices>
+<device name="" package="7498011211">
+<connects>
+<connect gate="G$1" pin="CRD" pad="7"/>
+<connect gate="G$1" pin="CTD" pad="4"/>
+<connect gate="G$1" pin="LED1_G+" pad="1"/>
+<connect gate="G$1" pin="LED1_G-" pad="2"/>
+<connect gate="G$1" pin="LED2_Y+" pad="9"/>
+<connect gate="G$1" pin="LED2_Y-" pad="10"/>
+<connect gate="G$1" pin="RD+" pad="6"/>
+<connect gate="G$1" pin="RD-" pad="8"/>
+<connect gate="G$1" pin="SHIELD1" pad="S1"/>
+<connect gate="G$1" pin="SHIELD2" pad="S2"/>
+<connect gate="G$1" pin="TD+" pad="3"/>
+<connect gate="G$1" pin="TD-" pad="5"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:12863525/4"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DATA-RATE" value="10/100 Base-T"/>
+<attribute name="DATASHEET-URL" value="https://www.we-online.com/redexpert/spec/7498011211?ae"/>
+<attribute name="LED" value="green-yellow"/>
+<attribute name="MOUNT" value="SMT"/>
+<attribute name="PART-NUMBER" value=" 7498011211 "/>
+<attribute name="POE" value="non-PoE"/>
+<attribute name="PORTS" value=" 1 "/>
+<attribute name="USB" value="No"/>
+<attribute name="VALUE" value=" 7498011211 "/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1187,6 +1659,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="microbuilder" deviceset="GND" device=""/>
+<part name="J2" library="Wurth_Connectors_WR-DSUB" library_urn="urn:adsk.eagle:library:16444967" deviceset="6180XX231421_618009231421" device="" package3d_urn="urn:adsk.eagle:package:16445076/3" value="618009231421"/>
+<part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="T1" library="Wurth_Signal &amp; Communications_WE-RJ45_LAN" library_urn="urn:adsk.eagle:library:14284239" deviceset="WE-RJ45_7498011211" device="" package3d_urn="urn:adsk.eagle:package:12863525/4" value=" 7498011211 "/>
 </parts>
 <sheets>
 <sheet>
@@ -1245,8 +1722,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="U$58" gate="G$1" x="139.7" y="137.16" smashed="yes">
 <attribute name="VALUE" x="138.176" y="134.62" size="1.27" layer="96"/>
 </instance>
-<instance part="P+10" gate="1" x="147.32" y="137.16" smashed="yes" rot="R180">
-<attribute name="VALUE" x="149.86" y="137.16" size="1.778" layer="96" rot="R180"/>
+<instance part="P+10" gate="1" x="139.7" y="166.37" smashed="yes">
+<attribute name="VALUE" x="137.16" y="166.37" size="1.778" layer="96"/>
 </instance>
 <instance part="GND45" gate="1" x="129.54" y="76.2" smashed="yes" rot="R90">
 <attribute name="VALUE" x="132.08" y="73.66" size="1.778" layer="96" rot="R90"/>
@@ -1281,9 +1758,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND11" gate="1" x="57.15" y="-11.43" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.61" y="-8.89" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="J1" gate="G$1" x="21.59" y="-3.81" smashed="yes">
-<attribute name="NAME" x="15.33" y="-3.46" size="1.016" layer="95" align="bottom-right"/>
-<attribute name="VALUE" x="15.47" y="-5.68" size="1.016" layer="96" align="bottom-right"/>
+<instance part="J1" gate="G$1" x="127" y="152.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="126.65" y="146.14" size="1.016" layer="95" rot="R90" align="bottom-right"/>
+<attribute name="VALUE" x="128.87" y="146.28" size="1.016" layer="96" rot="R90" align="bottom-right"/>
 </instance>
 <instance part="GND12" gate="1" x="57.15" y="-31.75" smashed="yes" rot="R270">
 <attribute name="VALUE" x="54.61" y="-29.21" size="1.778" layer="96" rot="R270"/>
@@ -1306,6 +1783,24 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="GND18" gate="1" x="60.96" y="-44.45" smashed="yes" rot="R270">
 <attribute name="VALUE" x="58.42" y="-41.91" size="1.778" layer="96" rot="R270"/>
 </instance>
+<instance part="U$1" gate="G$1" x="114.3" y="137.16" smashed="yes">
+<attribute name="VALUE" x="112.776" y="134.62" size="1.27" layer="96"/>
+</instance>
+<instance part="J2" gate="G$1" x="91.44" y="-99.06" smashed="yes" rot="R90">
+<attribute name="NAME" x="89.78" y="-85.28" size="1.27" layer="95" rot="R90"/>
+<attribute name="VALUE" x="92.32" y="-85.18" size="1.27" layer="96" rot="R90"/>
+</instance>
+<instance part="GND19" gate="1" x="120.65" y="-95.25" smashed="yes">
+<attribute name="VALUE" x="118.11" y="-97.79" size="1.778" layer="96"/>
+</instance>
+<instance part="GND20" gate="1" x="71.12" y="-91.44" smashed="yes">
+<attribute name="VALUE" x="68.58" y="-93.98" size="1.778" layer="96"/>
+</instance>
+<instance part="T1" gate="G$1" x="340.36" y="-63.5" smashed="yes">
+<attribute name="NAME" x="340.36" y="-48.26" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="340.36" y="-83.82" size="1.778" layer="96" align="bottom-center"/>
+<attribute name="NAME" x="340.36" y="-48.26" size="1.778" layer="95" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1326,6 +1821,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <pinref part="U9" gate="G$1" pin="T/R"/>
 <wire x1="243.84" y1="66.04" x2="243.84" y2="68.58" width="0.1524" layer="91"/>
 <junction x="243.84" y="68.58"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="P+10" gate="1" pin="+5V"/>
+<wire x1="132.08" y1="154.94" x2="139.7" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="154.94" x2="139.7" y2="163.83" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -1451,6 +1952,29 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="59.69" y1="-46.99" x2="90.17" y2="-46.99" width="0.1524" layer="91"/>
 <pinref part="HUB12RG" gate="G$1" pin="15"/>
 <pinref part="GND15" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="U$58" gate="G$1" pin="GND"/>
+<wire x1="132.08" y1="149.86" x2="139.7" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="149.86" x2="139.7" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="121.92" y1="149.86" x2="114.3" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="149.86" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="SHIELD"/>
+<wire x1="120.65" y1="-92.71" x2="120.65" y2="-88.9" width="0.1524" layer="91"/>
+<wire x1="120.65" y1="-88.9" x2="99.06" y2="-88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="5"/>
+<wire x1="83.82" y1="-88.9" x2="71.12" y2="-88.9" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="OE_3V" class="0">
@@ -1877,6 +2401,34 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="73.66" y1="-29.21" x2="90.17" y2="-29.21" width="0.1524" layer="91"/>
 <pinref part="HUB12RG" gate="G$1" pin="1"/>
 <label x="73.66" y="-29.21" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="RX" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="-104.14" x2="63.5" y2="-104.14" width="0.1524" layer="91"/>
+<label x="63.5" y="-104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="TX" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="83.82" y1="-99.06" x2="63.5" y2="-99.06" width="0.1524" layer="91"/>
+<label x="63.5" y="-99.06" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAN_H" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="6"/>
+<wire x1="121.92" y1="154.94" x2="104.14" y2="154.94" width="0.1524" layer="91"/>
+<label x="104.14" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CAN_L" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="5"/>
+<wire x1="121.92" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
+<label x="104.14" y="152.4" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
