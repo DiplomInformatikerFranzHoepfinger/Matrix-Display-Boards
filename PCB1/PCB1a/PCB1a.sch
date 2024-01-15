@@ -2949,8 +2949,8 @@ Copyright: Würth Elektronik</description>
 <packages>
 <package name="WCAP-CSGP_0805_H0.8_R" urn="urn:adsk.eagle:footprint:18489072/1" library_version="19">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Reflow,2 x 1.25x0.8( LxWxH) ;</description>
-<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
-<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="1" x="-0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="0.9" dy="1.3" layer="1"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -2968,8 +2968,8 @@ Copyright: Würth Elektronik</description>
 </package>
 <package name="WCAP-CSGP_0805_H0.8_W" urn="urn:adsk.eagle:footprint:18489066/1" library_version="19">
 <description>&lt;b&gt;WCAP-CSGP MLCCs 0805&lt;/b&gt;&lt;br&gt;Solder type: Wave,2 x 1.25x0.8( LxWxH) ;</description>
-<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
-<smd name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1" thermals="no"/>
+<smd name="1" x="-1.15" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="2" x="1.15" y="0" dx="0.9" dy="1.3" layer="1"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.1" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
 <wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.1" layer="51"/>
@@ -10900,235 +10900,6 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 </deviceset>
 </devicesets>
 </library>
-<library name="Discrete">
-<packages>
-<package name="C0402">
-<description>&lt;b&gt;0402&lt;b&gt;&lt;p&gt;</description>
-<wire x1="-0.762" y1="-0.4445" x2="-0.889" y2="-0.3175" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.889" y1="-0.3175" x2="-0.889" y2="0.3175" width="0.0762" layer="21"/>
-<wire x1="-0.889" y1="0.3175" x2="-0.762" y2="0.4445" width="0.0762" layer="21" curve="-90"/>
-<wire x1="-0.762" y1="0.4445" x2="0.762" y2="0.4445" width="0.0762" layer="21"/>
-<wire x1="0.762" y1="0.4445" x2="0.889" y2="0.3175" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.889" y1="0.3175" x2="0.889" y2="-0.3175" width="0.0762" layer="21"/>
-<wire x1="0.889" y1="-0.3175" x2="0.762" y2="-0.4445" width="0.0762" layer="21" curve="-90"/>
-<wire x1="0.762" y1="-0.4445" x2="-0.762" y2="-0.4445" width="0.0762" layer="21"/>
-<smd name="1" x="-0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" thermals="no"/>
-<smd name="2" x="0.4445" y="0" dx="0.635" dy="0.635" layer="1" roundness="50" thermals="no"/>
-<text x="-1.27" y="0.635" size="0.635" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.016" y="-0.254" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<polygon width="0.0254" layer="51">
-<vertex x="-0.508" y="0.254"/>
-<vertex x="0.508" y="0.254"/>
-<vertex x="0.508" y="-0.254"/>
-<vertex x="-0.508" y="-0.254"/>
-</polygon>
-</package>
-<package name="C0603">
-<description>&lt;b&gt;0603&lt;b&gt;&lt;p&gt;</description>
-<wire x1="-1.397" y1="0.635" x2="1.397" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="0.635" x2="1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.397" y1="-0.635" x2="-1.397" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.397" y1="-0.635" x2="-1.397" y2="0.635" width="0.127" layer="21"/>
-<smd name="1" x="-0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25" thermals="no"/>
-<smd name="2" x="0.762" y="0" dx="0.889" dy="0.889" layer="1" roundness="25" thermals="no"/>
-<text x="-1.397" y="0.762" size="0.889" layer="25" ratio="11">&gt;name</text>
-<text x="-1.27" y="-0.1905" size="0.381" layer="27" ratio="12">&gt;value</text>
-<text x="-1.27" y="-0.254" size="0.635" layer="33" ratio="10">&gt;name</text>
-<rectangle x1="-1.27" y1="-0.508" x2="1.27" y2="0.508" layer="39"/>
-</package>
-<package name="C0805">
-<description>&lt;b&gt;0805&lt;b&gt;&lt;p&gt;</description>
-<wire x1="1.651" y1="0.889" x2="1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="1.651" y1="-0.889" x2="-1.651" y2="-0.889" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="-0.889" x2="-1.651" y2="0.889" width="0.127" layer="21"/>
-<wire x1="-1.651" y1="0.889" x2="1.651" y2="0.889" width="0.127" layer="21"/>
-<smd name="1" x="-0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25" thermals="no"/>
-<smd name="2" x="0.889" y="0" dx="1.016" dy="1.397" layer="1" roundness="25" thermals="no"/>
-<text x="-1.778" y="1.016" size="0.8128" layer="25" font="vector" ratio="10">&gt;NAME</text>
-<text x="-1.27" y="-0.254" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-1.4605" y1="-0.762" x2="1.4605" y2="0.762" layer="39"/>
-</package>
-<package name="C0512/10.18">
-<description>FILM CAP 0.01UF/275V</description>
-<wire x1="-6" y1="2.45" x2="6" y2="2.45" width="0.127" layer="21"/>
-<wire x1="6" y1="2.45" x2="6" y2="-2.45" width="0.127" layer="21"/>
-<wire x1="6" y1="-2.45" x2="-6" y2="-2.45" width="0.127" layer="21"/>
-<wire x1="-6" y1="-2.45" x2="-6" y2="2.45" width="0.127" layer="21"/>
-<pad name="P$1" x="-5.09" y="0" drill="0.95" diameter="1.6"/>
-<pad name="P$2" x="5.09" y="0" drill="0.95" diameter="1.6"/>
-<text x="-3.81" y="2.921" size="1.778" layer="25" ratio="10">&gt;name</text>
-<text x="-4.445" y="-1.27" size="1.778" layer="27" ratio="10">&gt;value</text>
-<text x="-1.778" y="-0.381" size="0.8128" layer="33" ratio="10">&gt;name</text>
-<rectangle x1="-5.969" y1="-2.413" x2="5.969" y2="2.413" layer="39"/>
-</package>
-<package name="CERAMIC-2.54">
-<wire x1="-2.54" y1="1.143" x2="2.54" y2="1.143" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.143" x2="2.54" y2="-1.143" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.143" x2="-2.54" y2="-1.143" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.143" x2="-2.54" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.635" diameter="1.143"/>
-<pad name="2" x="1.27" y="0" drill="0.635" diameter="1.143"/>
-<text x="-1.905" y="1.27" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.016" y="-1.016" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.016" y="-0.254" size="0.4064" layer="33" ratio="10">&gt;NAME</text>
-<rectangle x1="-2.54" y1="-1.143" x2="2.54" y2="1.143" layer="39"/>
-</package>
-<package name="CERAMIC-5.08">
-<wire x1="-3.175" y1="1.143" x2="3.175" y2="1.143" width="0.127" layer="21"/>
-<wire x1="3.175" y1="1.143" x2="3.175" y2="-1.143" width="0.127" layer="21"/>
-<wire x1="3.175" y1="-1.143" x2="-3.175" y2="-1.143" width="0.127" layer="21"/>
-<wire x1="-3.175" y1="-1.143" x2="-3.175" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016"/>
-<pad name="2" x="2.54" y="0" drill="1.016"/>
-<text x="-1.905" y="1.27" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.651" y="-0.635" size="0.635" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.27" y="0" size="0.4064" layer="33" ratio="10">&gt;NAME</text>
-<rectangle x1="-3.175" y1="-1.143" x2="3.175" y2="1.143" layer="39"/>
-</package>
-<package name="C1206">
-<wire x1="-2.4638" y1="1.2192" x2="2.4638" y2="1.2192" width="0.127" layer="21"/>
-<wire x1="2.4638" y1="1.2192" x2="2.4638" y2="-1.2192" width="0.127" layer="21"/>
-<wire x1="2.4638" y1="-1.2192" x2="-2.4638" y2="-1.2192" width="0.127" layer="21"/>
-<wire x1="-2.4638" y1="-1.2192" x2="-2.4638" y2="1.2192" width="0.127" layer="21"/>
-<smd name="1" x="-1.651" y="0" dx="1.27" dy="2.032" layer="1" thermals="no"/>
-<smd name="2" x="1.651" y="0" dx="1.27" dy="2.032" layer="1" thermals="no"/>
-<text x="-1.778" y="1.397" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.159" y="-0.508" size="0.8128" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="C1210">
-<smd name="1" x="-1.5" y="0" dx="3.1" dy="1.55" layer="1" rot="R90" thermals="no"/>
-<smd name="2" x="1.5" y="0" dx="3.1" dy="1.55" layer="1" rot="R90" thermals="no"/>
-<wire x1="-2.55" y1="1.8" x2="2.55" y2="1.8" width="0.127" layer="21"/>
-<wire x1="2.55" y1="1.8" x2="2.55" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="2.55" y1="-1.8" x2="-2.55" y2="-1.8" width="0.127" layer="21"/>
-<wire x1="-2.55" y1="-1.8" x2="-2.55" y2="1.8" width="0.127" layer="21"/>
-<rectangle x1="-2.54" y1="-1.778" x2="2.54" y2="1.778" layer="39"/>
-<text x="-3.81" y="1.905" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.286" y="-0.635" size="0.889" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="C0402S">
-<wire x1="-0.6985" y1="0.254" x2="0.6985" y2="0.254" width="0.0762" layer="21"/>
-<wire x1="0.6985" y1="0.254" x2="0.6985" y2="-0.254" width="0.0762" layer="21"/>
-<wire x1="0.6985" y1="-0.254" x2="-0.6985" y2="-0.254" width="0.0762" layer="21"/>
-<wire x1="-0.6985" y1="-0.254" x2="-0.6985" y2="0.254" width="0.0762" layer="21"/>
-<smd name="1" x="-0.508" y="0" dx="0.381" dy="0.508" layer="1" roundness="50" thermals="no"/>
-<smd name="2" x="0.508" y="0" dx="0.381" dy="0.508" layer="1" roundness="50" thermals="no"/>
-<text x="-0.635" y="0.381" size="0.635" layer="25" ratio="10">&gt;NAME</text>
-<text x="-0.635" y="-0.254" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
-<polygon width="0.0254" layer="51">
-<vertex x="-0.508" y="0.254"/>
-<vertex x="0.508" y="0.254"/>
-<vertex x="0.508" y="-0.254"/>
-<vertex x="-0.508" y="-0.254"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="C">
-<wire x1="-0.635" y1="-1.016" x2="-0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="1.016" width="0.254" layer="94"/>
-<wire x1="0.635" y1="1.016" x2="0.635" y2="0" width="0.254" layer="94"/>
-<wire x1="0.635" y1="0" x2="0.635" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<text x="-3.81" y="0" size="1.27" layer="95">&gt;name</text>
-<text x="0" y="0" size="1.27" layer="96">&gt;value</text>
-<pin name="1" x="-3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="3.81" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="C*" prefix="C" uservalue="yes">
-<description>&lt;b&gt;Ceramic Capacitors&lt;b&gt;</description>
-<gates>
-<gate name="C" symbol="C" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="-0402" package="C0402">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0603" package="C0603">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0805" package="C0805">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-0512" package="C0512/10.18">
-<connects>
-<connect gate="C" pin="1" pad="P$1"/>
-<connect gate="C" pin="2" pad="P$2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="'2.54'" package="CERAMIC-2.54">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="'5.08'" package="CERAMIC-5.08">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1206" package="C1206">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="-1210" package="C1210">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="'-0402S'" package="C0402S">
-<connects>
-<connect gate="C" pin="1" pad="1"/>
-<connect gate="C" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Power or GND ">
 <packages>
 </packages>
@@ -11246,11 +11017,11 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 <part name="R3" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-EU_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="60R"/>
 <part name="D11" library="Wurth_EMC Components_WE-TVS" library_urn="urn:adsk.eagle:library:14282971" deviceset="WE-TVS_SOT23-3L_824094024" device="" package3d_urn="urn:adsk.eagle:package:12152380/4" value="24Vdc"/>
 <part name="U2" library="IC" deviceset="MAX3232" device="-SOIC16" value="MAX232D"/>
-<part name="C6" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
-<part name="C7" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
-<part name="C3" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
-<part name="C4" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
-<part name="C8" library="Discrete" deviceset="C*" device="-0603" value="100nF"/>
+<part name="C6" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
+<part name="C7" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
+<part name="C3" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
+<part name="C4" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
+<part name="C8" library="Wurth_Capacitors_WCAP-CSGP" library_urn="urn:adsk.eagle:library:18488985" deviceset="WCAP-CSGP_0805_H0.8" device="_50V(DC)_R" package3d_urn="urn:adsk.eagle:package:18489119/2" technology="_885012207098" value="100nF"/>
 <part name="U$18" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$19" library="Power or GND " deviceset="GND_POWER" device=""/>
 <part name="U$20" library="Power or GND " deviceset="GND_POWER" device=""/>
@@ -12518,23 +12289,23 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 <attribute name="NAME" x="48.26" y="74.93" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.26" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="C" x="34.29" y="68.58" smashed="yes">
+<instance part="C6" gate="G$1" x="34.29" y="68.58" smashed="yes">
 <attribute name="NAME" x="30.48" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="34.29" y="68.58" size="1.27" layer="96"/>
 </instance>
-<instance part="C7" gate="C" x="34.29" y="63.5" smashed="yes">
+<instance part="C7" gate="G$1" x="34.29" y="63.5" smashed="yes">
 <attribute name="NAME" x="30.48" y="63.5" size="1.27" layer="95"/>
 <attribute name="VALUE" x="34.29" y="63.5" size="1.27" layer="96"/>
 </instance>
-<instance part="C3" gate="C" x="82.55" y="68.58" smashed="yes">
+<instance part="C3" gate="G$1" x="82.55" y="68.58" smashed="yes">
 <attribute name="NAME" x="78.74" y="68.58" size="1.27" layer="95"/>
 <attribute name="VALUE" x="82.55" y="68.58" size="1.27" layer="96"/>
 </instance>
-<instance part="C4" gate="C" x="82.55" y="66.04" smashed="yes">
-<attribute name="NAME" x="78.74" y="66.04" size="1.27" layer="95"/>
-<attribute name="VALUE" x="82.55" y="66.04" size="1.27" layer="96"/>
+<instance part="C4" gate="G$1" x="82.55" y="63.5" smashed="yes">
+<attribute name="NAME" x="78.74" y="63.5" size="1.27" layer="95"/>
+<attribute name="VALUE" x="82.55" y="63.5" size="1.27" layer="96"/>
 </instance>
-<instance part="C8" gate="C" x="81.28" y="43.18" smashed="yes">
+<instance part="C8" gate="G$1" x="81.28" y="43.18" smashed="yes">
 <attribute name="NAME" x="77.47" y="43.18" size="1.27" layer="95"/>
 <attribute name="VALUE" x="81.28" y="43.18" size="1.27" layer="96"/>
 </instance>
@@ -12568,8 +12339,8 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 <net name="N$33" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="C1+"/>
-<wire x1="43.18" y1="68.58" x2="38.1" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C6" gate="C" pin="2"/>
+<wire x1="43.18" y1="68.58" x2="39.37" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -12577,15 +12348,15 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 <pinref part="U2" gate="G$1" pin="C1-"/>
 <wire x1="43.18" y1="66.04" x2="29.21" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="66.04" x2="29.21" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="68.58" x2="30.48" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="C6" gate="C" pin="1"/>
+<wire x1="29.21" y1="68.58" x2="31.75" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="C2+"/>
-<wire x1="38.1" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C7" gate="C" pin="2"/>
+<wire x1="39.37" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -12593,28 +12364,28 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 <pinref part="U2" gate="G$1" pin="C2-"/>
 <wire x1="43.18" y1="60.96" x2="29.21" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="29.21" y1="60.96" x2="29.21" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="29.21" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="C7" gate="C" pin="1"/>
+<wire x1="29.21" y1="63.5" x2="31.75" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$37" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
-<wire x1="72.39" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="C4" gate="C" pin="1"/>
+<wire x1="72.39" y1="66.04" x2="80.01" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="86.36" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="68.58" x2="93.98" y2="68.58" width="0.1524" layer="91"/>
 <label x="90.17" y="68.58" size="1.27" layer="95"/>
-<pinref part="C3" gate="C" pin="2"/>
+<pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="U$20" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="85.09" y1="43.18" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="43.18" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
 <label x="86.36" y="43.18" size="1.27" layer="95"/>
-<pinref part="C8" gate="C" pin="2"/>
+<pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="U$19" gate="G$1" pin="GND"/>
 <wire x1="90.17" y1="40.64" x2="90.17" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -12628,22 +12399,22 @@ Details see: &lt;a href="https://www.we-online.com/catalog/en/WE-TVS"&gt;https:/
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="86.36" y1="66.04" x2="93.98" y2="66.04" width="0.1524" layer="91"/>
-<label x="90.17" y="66.04" size="1.27" layer="95"/>
-<pinref part="C4" gate="C" pin="2"/>
+<wire x1="87.63" y1="63.5" x2="93.98" y2="63.5" width="0.1524" layer="91"/>
+<label x="90.17" y="63.5" size="1.27" layer="95"/>
+<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="72.39" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="68.58" x2="80.01" y2="68.58" width="0.1524" layer="91"/>
 <label x="73.66" y="68.58" size="1.27" layer="95"/>
-<pinref part="C3" gate="C" pin="1"/>
+<pinref part="C3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="V-"/>
-<wire x1="72.39" y1="43.18" x2="77.47" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="C8" gate="C" pin="1"/>
+<wire x1="72.39" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="232_TX" class="0">
