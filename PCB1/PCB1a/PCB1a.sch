@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1533,12 +1533,6 @@ Updated by Ella Wu 2023-03-21&lt;br&gt;
 <pad name="TXA" x="1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
 <pad name="TXB" x="-1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
 <text x="-3.7338" y="23.4188" size="0.9652" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<polygon width="0.2032" layer="41">
-<vertex x="-22.86" y="-31.75"/>
-<vertex x="-22.86" y="-25.61"/>
-<vertex x="-5.5372" y="-25.61"/>
-<vertex x="-5.5372" y="-31.75"/>
-</polygon>
 </package>
 <package name="ESP32_DEVC_DUAL_HEADER_BOT_MOUNT_RIGHT">
 <wire x1="2.54" y1="-25.4" x2="0" y2="-25.4" width="0.1778" layer="21"/>
