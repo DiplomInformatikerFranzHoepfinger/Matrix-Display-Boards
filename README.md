@@ -7,6 +7,8 @@
 
 ### Lytec
 
+[CL3000 Photos](CL3000.md)
+
 http://www.lytec.cn/CL3000?_l=en
 
 http://www.lytec.cn/CL3000-N?product_id=37&_l=en
