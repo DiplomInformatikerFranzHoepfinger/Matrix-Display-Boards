@@ -238,7 +238,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyNDAxMTM3MTk1NzI4MDY" f3durn="urn:adsk.wipprod:dm.lineage:9HDWv57yTli2KPtb9bdN_w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="4e4bf9f6-c12d-4ec7-88e5-25e92f5907cb" lastsyncedrevisionid="4e4bf9f6-c12d-4ec7-88e5-25e92f5907cb" lastboardhashguid="845b8975-bb73-b65f-a880-d98b8a260b61" lastpushedtime="2024-01-16T21:00:03Z" linktopcb3d="true"/>
+<fusionsync huburn="a.YnVzaW5lc3M6bXNtdWM" projecturn="a.YnVzaW5lc3M6bXNtdWMjMjAyNDAxMTM3MTk1NzI4MDY" f3durn="urn:adsk.wipprod:dm.lineage:9HDWv57yTli2KPtb9bdN_w" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="9768abe7-3b65-4606-8e9f-c54312590867" lastsyncedrevisionid="9768abe7-3b65-4606-8e9f-c54312590867" lastboardhashguid="f016545d-e0cc-2f4a-0fa1-a50afc007a1b" lastpushedtime="2024-01-17T17:10:06Z" linktopcb3d="true"/>
 <plain>
 <wire x1="-75" y1="40.6" x2="-75" y2="-40.6" width="0" layer="20" locked="yes"/>
 <wire x1="-75" y1="-40.6" x2="-73.5" y2="-42.1" width="0" layer="20" curve="90" locked="yes"/>
@@ -391,6 +391,7 @@ RGB</text>
 <text x="3.81" y="-11.43" size="1.016" layer="25" align="center-right">A</text>
 <text x="3.81" y="-6.35" size="1.016" layer="25" align="center-right">C</text>
 <text x="3.81" y="3.81" size="1.016" layer="25" align="center-right">RS232 TXD</text>
+<text x="3.81" y="1.27" size="1.016" layer="25" align="center-right">B</text>
 </plain>
 <libraries>
 <library name="Wurth_Connectors_WR-BHD" urn="urn:adsk.eagle:library:15268170">
