@@ -1474,186 +1474,12 @@ Updated by Ella Wu 2023-03-21&lt;br&gt;
 </library>
 <library name="eclibrary">
 <packages>
-<package name="ESP32_DEVC_DUAL_HEADER_BOT_MOUNT_LEFT">
-<wire x1="0" y1="-10.16" x2="0" y2="10.16" width="0.254" layer="22"/>
-<wire x1="0" y1="10.16" x2="0" y2="22.86" width="0.254" layer="22"/>
-<wire x1="2.54" y1="-25.4" x2="-2.54" y2="-25.4" width="0.1778" layer="21"/>
-<wire x1="2.54" y1="-25.4" x2="2.54" y2="-24.765" width="0.1778" layer="21"/>
-<wire x1="-2.54" y1="22.86" x2="2.54" y2="22.86" width="0.1778" layer="21"/>
-<wire x1="-2.54" y1="22.86" x2="-2.54" y2="22.225" width="0.1778" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="2.54" y2="22.225" width="0.1778" layer="21"/>
-<wire x1="-27.94" y1="22.86" x2="0" y2="22.86" width="0.127" layer="52"/>
-<wire x1="0" y1="22.86" x2="0" y2="-12.7" width="0.127" layer="52"/>
-<wire x1="-27.94" y1="-12.7" x2="-27.94" y2="22.86" width="0.127" layer="52"/>
-<wire x1="-15.24" y1="21.59" x2="-12.7" y2="21.59" width="0.2032" layer="22"/>
-<wire x1="-12.7" y1="21.59" x2="-12.7" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="-12.7" y1="22.86" x2="0" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="0" y1="10.16" x2="0" y2="-25.4" width="0.2032" layer="22"/>
-<wire x1="0" y1="-25.4" x2="-27.94" y2="-25.4" width="0.2032" layer="22"/>
-<wire x1="-27.94" y1="-25.4" x2="-27.94" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="-27.94" y1="22.86" x2="-15.24" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="-15.24" y1="22.86" x2="-15.24" y2="21.59" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="-24.765" width="0.1778" layer="21"/>
-<pad name="0A" x="1.27" y="8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="0B" x="-1.27" y="8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="2A" x="1.27" y="11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="2B" x="-1.27" y="11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="4A" x="1.27" y="6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="4B" x="-1.27" y="6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="5A" x="1.27" y="-1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="5B" x="-1.27" y="-1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="15A_A" x="1.27" y="13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="15B_B" x="-1.27" y="13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="16A_A" x="1.27" y="3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="16_B" x="-1.27" y="3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="17A_A" x="1.27" y="1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="17B_B" x="-1.27" y="1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="18A_A" x="1.27" y="-3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="18B_B" x="-1.27" y="-3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="19A_A" x="1.27" y="-6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="19B_B" x="-1.27" y="-6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="21A" x="1.27" y="-11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="21B" x="-1.27" y="-11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="22A" x="1.27" y="-19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="22B" x="-1.27" y="-19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="23A" x="1.27" y="-21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="23B" x="-1.27" y="-21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="CLKA" x="1.27" y="21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="CLKB" x="-1.27" y="21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D0A" x="1.27" y="19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D0B" x="-1.27" y="19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D1A" x="1.27" y="16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D1B" x="-1.27" y="16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GND1A" x="1.27" y="-24.13" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GND1B" x="-1.27" y="-24.13" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GNDA" x="1.27" y="-8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GNDB" x="-1.27" y="-8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="RXA" x="1.27" y="-13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="RXB" x="-1.27" y="-13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="TXA" x="1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="TXB" x="-1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<text x="-3.7338" y="23.4188" size="0.9652" layer="25" font="vector" ratio="15">&gt;NAME</text>
-</package>
-<package name="ESP32_DEVC_DUAL_HEADER_BOT_MOUNT_RIGHT">
-<wire x1="2.54" y1="-25.4" x2="0" y2="-25.4" width="0.1778" layer="21"/>
-<wire x1="0" y1="22.86" x2="2.54" y2="22.86" width="0.1778" layer="21"/>
-<wire x1="-2.54" y1="22.86" x2="-2.54" y2="22.225" width="0.1778" layer="21"/>
-<wire x1="2.54" y1="22.86" x2="2.54" y2="22.225" width="0.1778" layer="21"/>
-<wire x1="0" y1="22.86" x2="27.94" y2="22.86" width="0.127" layer="52"/>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="-25.4" width="0.127" layer="52"/>
-<wire x1="0" y1="-25.4" x2="0" y2="22.86" width="0.127" layer="52"/>
-<wire x1="12.7" y1="21.59" x2="15.24" y2="21.59" width="0.2032" layer="22"/>
-<wire x1="15.24" y1="21.59" x2="15.24" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="0" y1="22.86" x2="-2.54" y2="22.86" width="0.2032" layer="21"/>
-<wire x1="15.24" y1="22.86" x2="27.94" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="27.94" y1="22.86" x2="27.94" y2="-25.4" width="0.2032" layer="22"/>
-<wire x1="27.94" y1="-25.4" x2="0" y2="-25.4" width="0.2032" layer="22"/>
-<wire x1="-2.54" y1="-25.4" x2="0" y2="-25.4" width="0.2032" layer="21"/>
-<wire x1="0" y1="-25.4" x2="0" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="0" y1="22.86" x2="12.7" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="12.7" y1="22.86" x2="15.24" y2="22.86" width="0.2032" layer="22"/>
-<wire x1="12.7" y1="22.86" x2="12.7" y2="21.59" width="0.2032" layer="22"/>
-<wire x1="2.54" y1="-25.4" x2="2.54" y2="-24.765" width="0.1778" layer="21"/>
-<wire x1="-2.54" y1="-25.4" x2="-2.54" y2="-24.765" width="0.1778" layer="21"/>
-<wire x1="0" y1="-25.4" x2="27.94" y2="-25.4" width="0.127" layer="52"/>
-<pad name="3V3A" x="-1.27" y="-24.13" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="3V3B" x="1.27" y="-24.13" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="5V_A" x="-1.27" y="21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="5V_B" x="1.27" y="21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="12A" x="-1.27" y="6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="12B" x="1.27" y="6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="13A_A" x="-1.27" y="11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="13B_B" x="1.27" y="11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="14A_A" x="-1.27" y="3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="14B_B" x="1.27" y="3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="25A" x="-1.27" y="-3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="25B" x="1.27" y="-3.81" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="26A" x="-1.27" y="-1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="26B" x="1.27" y="-1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="27A" x="-1.27" y="1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="27B" x="1.27" y="1.27" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="32A" x="-1.27" y="-8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="32B" x="1.27" y="-8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="33A" x="-1.27" y="-6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="33B" x="1.27" y="-6.35" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="34A" x="-1.27" y="-13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="34B" x="1.27" y="-13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="35A" x="-1.27" y="-11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="35B" x="1.27" y="-11.43" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="CMD_A" x="-1.27" y="19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="CMD_B" x="1.27" y="19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D2A" x="-1.27" y="13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D2B" x="1.27" y="13.97" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D3_A" x="-1.27" y="16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="D3_B" x="1.27" y="16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="ENA" x="-1.27" y="-21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="ENB" x="1.27" y="-21.59" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GNDA" x="-1.27" y="8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="GNDB" x="1.27" y="8.89" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="VNA" x="-1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="VNB" x="1.27" y="-16.51" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="VPA" x="-1.27" y="-19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<pad name="VPB" x="1.27" y="-19.05" drill="1.016" diameter="1.7526" rot="R180"/>
-<text x="-2.4638" y="23.4188" size="0.9652" layer="25" font="vector" ratio="15">&gt;NAME</text>
-</package>
 </packages>
 <symbols>
 <symbol name="NC">
 <pin name="P$1" x="0" y="0" visible="off" length="point"/>
 <wire x1="-0.508" y1="0.508" x2="0.508" y2="-0.508" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-0.508" x2="0.508" y2="0.508" width="0.254" layer="94"/>
-</symbol>
-<symbol name="ESP32_DEVC_MIN_LEFT">
-<wire x1="-10.16" y1="-27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-27.94" width="0.254" layer="94"/>
-<pin name="0" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="2" x="-12.7" y="10.16" visible="pin" length="short"/>
-<pin name="4" x="-12.7" y="5.08" visible="pin" length="short"/>
-<pin name="5" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="15" x="-12.7" y="12.7" visible="pin" length="short"/>
-<pin name="16" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="17" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="18" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="19" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="21" x="-12.7" y="-12.7" visible="pin" length="short"/>
-<pin name="22" x="-12.7" y="-20.32" visible="pin" length="short"/>
-<pin name="23" x="-12.7" y="-22.86" visible="pin" length="short"/>
-<pin name="CLK" x="-12.7" y="20.32" visible="pin" length="short"/>
-<pin name="D0" x="-12.7" y="17.78" visible="pin" length="short"/>
-<pin name="D1" x="-12.7" y="15.24" visible="pin" length="short"/>
-<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="GND1" x="-12.7" y="-25.4" visible="pin" length="short" direction="pwr"/>
-<pin name="RX" x="-12.7" y="-15.24" visible="pin" length="short"/>
-<pin name="TX" x="-12.7" y="-17.78" visible="pin" length="short"/>
-<text x="-10.414" y="23.876" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.794" y="-30.48" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
-</symbol>
-<symbol name="ESP32_DEVC_MIN_RIGHT">
-<wire x1="-10.16" y1="-27.94" x2="10.16" y2="-27.94" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-27.94" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
-<pin name="3V3" x="12.7" y="-25.4" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="5V" x="12.7" y="20.32" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="12" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
-<pin name="13" x="12.7" y="10.16" visible="pin" length="short" rot="R180"/>
-<pin name="14" x="12.7" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="25" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="26" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="27" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="32" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
-<pin name="33" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="34" x="12.7" y="-15.24" visible="pin" length="short" rot="R180"/>
-<pin name="35" x="12.7" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="CMD" x="12.7" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="D2" x="12.7" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="D3" x="12.7" y="15.24" visible="pin" length="short" rot="R180"/>
-<pin name="EN" x="12.7" y="-22.86" visible="pin" length="short" rot="R180"/>
-<pin name="GND" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="VN" x="12.7" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="VP" x="12.7" y="-20.32" visible="pin" length="short" rot="R180"/>
-<text x="4.826" y="24.13" size="1.27" layer="95" font="vector" ratio="15">&gt;NAME</text>
-<text x="-2.794" y="-30.48" size="1.27" layer="96" font="vector" ratio="15">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1667,72 +1493,6 @@ Updated by Ella Wu 2023-03-21&lt;br&gt;
 <technology name="">
 <attribute name="_EXTERNAL_" value="" constant="no"/>
 </technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ESP32_DEVC_MIN_LEFT">
-<gates>
-<gate name="G$1" symbol="ESP32_DEVC_MIN_LEFT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ESP32_DEVC_DUAL_HEADER_BOT_MOUNT_LEFT">
-<connects>
-<connect gate="G$1" pin="0" pad="0A 0B"/>
-<connect gate="G$1" pin="15" pad="15A_A 15B_B"/>
-<connect gate="G$1" pin="16" pad="16A_A 16_B"/>
-<connect gate="G$1" pin="17" pad="17A_A 17B_B"/>
-<connect gate="G$1" pin="18" pad="18A_A 18B_B"/>
-<connect gate="G$1" pin="19" pad="19A_A 19B_B"/>
-<connect gate="G$1" pin="2" pad="2A 2B"/>
-<connect gate="G$1" pin="21" pad="21A 21B"/>
-<connect gate="G$1" pin="22" pad="22A 22B"/>
-<connect gate="G$1" pin="23" pad="23A 23B"/>
-<connect gate="G$1" pin="4" pad="4A 4B"/>
-<connect gate="G$1" pin="5" pad="5A 5B"/>
-<connect gate="G$1" pin="CLK" pad="CLKA CLKB"/>
-<connect gate="G$1" pin="D0" pad="D0A D0B"/>
-<connect gate="G$1" pin="D1" pad="D1A D1B"/>
-<connect gate="G$1" pin="GND" pad="GNDA GNDB"/>
-<connect gate="G$1" pin="GND1" pad="GND1A GND1B"/>
-<connect gate="G$1" pin="RX" pad="RXA RXB"/>
-<connect gate="G$1" pin="TX" pad="TXA TXB"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="ESP32_DEVC_MIN_RIGHT">
-<gates>
-<gate name="G$1" symbol="ESP32_DEVC_MIN_RIGHT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="ESP32_DEVC_DUAL_HEADER_BOT_MOUNT_RIGHT">
-<connects>
-<connect gate="G$1" pin="12" pad="12A 12B"/>
-<connect gate="G$1" pin="13" pad="13A_A 13B_B"/>
-<connect gate="G$1" pin="14" pad="14A_A 14B_B"/>
-<connect gate="G$1" pin="25" pad="25A 25B"/>
-<connect gate="G$1" pin="26" pad="26A 26B"/>
-<connect gate="G$1" pin="27" pad="27A 27B"/>
-<connect gate="G$1" pin="32" pad="32A 32B"/>
-<connect gate="G$1" pin="33" pad="33A 33B"/>
-<connect gate="G$1" pin="34" pad="34A 34B"/>
-<connect gate="G$1" pin="35" pad="35A 35B"/>
-<connect gate="G$1" pin="3V3" pad="3V3A 3V3B"/>
-<connect gate="G$1" pin="5V" pad="5V_A 5V_B"/>
-<connect gate="G$1" pin="CMD" pad="CMD_A CMD_B"/>
-<connect gate="G$1" pin="D2" pad="D2A D2B"/>
-<connect gate="G$1" pin="D3" pad="D3_A D3_B"/>
-<connect gate="G$1" pin="EN" pad="ENA ENB"/>
-<connect gate="G$1" pin="GND" pad="GNDA GNDB"/>
-<connect gate="G$1" pin="VN" pad="VNA VNB"/>
-<connect gate="G$1" pin="VP" pad="VPA VPB"/>
-</connects>
-<technologies>
-<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -11630,8 +11390,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <part name="J2" library="Wurth_Connectors_WR-DSUB" library_urn="urn:adsk.eagle:library:16444967" deviceset="6180XX231421_618009231421" device="" package3d_urn="urn:adsk.eagle:package:16445076/3" value="618009231421"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="eclibrary" deviceset="ESP32_DEVC_MIN_LEFT" device=""/>
-<part name="J4" library="eclibrary" deviceset="ESP32_DEVC_MIN_RIGHT" device=""/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="U$2" library="eclibrary" deviceset="NC" device=""/>
 <part name="U$3" library="eclibrary" deviceset="NC" device=""/>
@@ -11827,14 +11585,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <instance part="GND20" gate="1" x="71.12" y="-91.44" smashed="yes">
 <attribute name="VALUE" x="68.58" y="-93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="J3" gate="G$1" x="256.54" y="-63.5" smashed="yes">
-<attribute name="NAME" x="246.126" y="-39.624" size="1.27" layer="95" font="vector" ratio="15"/>
-<attribute name="VALUE" x="233.426" y="-93.98" size="1.27" layer="96" font="vector" ratio="15"/>
-</instance>
-<instance part="J4" gate="G$1" x="256.54" y="-63.5" smashed="yes">
-<attribute name="NAME" x="261.366" y="-39.37" size="1.27" layer="95" font="vector" ratio="15"/>
-<attribute name="VALUE" x="256.286" y="-93.98" size="1.27" layer="96" font="vector" ratio="15"/>
-</instance>
 <instance part="GND21" gate="1" x="297.18" y="-55.88" smashed="yes" rot="R90">
 <attribute name="VALUE" x="299.72" y="-58.42" size="1.778" layer="96" rot="R90"/>
 </instance>
@@ -11920,7 +11670,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <wire x1="269.24" y1="-43.18" x2="292.1" y2="-43.18" width="0.1524" layer="91"/>
 <label x="271.78" y="-43.18" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="5V"/>
 <pinref part="J6" gate="G$1" pin="40"/>
 <junction x="269.24" y="-43.18"/>
 <pinref part="J6" gate="G$1" pin="39"/>
@@ -12075,14 +11824,12 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <wire x1="294.64" y1="-55.88" x2="269.24" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="GND21" gate="1" pin="GND"/>
-<pinref part="J4" gate="G$1" pin="GND"/>
 <pinref part="J6" gate="G$1" pin="30"/>
 <junction x="269.24" y="-55.88"/>
 <pinref part="J6" gate="G$1" pin="29"/>
 <wire x1="259.08" y1="-55.88" x2="269.24" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="GND"/>
 <wire x1="218.44" y1="-73.66" x2="243.84" y2="-73.66" width="0.1524" layer="91"/>
 <pinref part="GND22" gate="1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="15"/>
@@ -12109,7 +11856,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-53.34" x2="292.1" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="13"/>
 <label x="292.1" y="-53.34" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="32"/>
 <junction x="269.24" y="-53.34"/>
@@ -12125,7 +11871,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-53.34" x2="243.84" y2="-53.34" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
 <label x="220.98" y="-53.34" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="31"/>
 <junction x="243.84" y="-53.34"/>
@@ -12141,7 +11886,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-76.2" x2="243.84" y2="-76.2" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="21"/>
 <label x="220.98" y="-76.2" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="13"/>
 <junction x="243.84" y="-76.2"/>
@@ -12157,7 +11901,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-58.42" x2="243.84" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="4"/>
 <label x="220.98" y="-58.42" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="27"/>
 <junction x="243.84" y="-58.42"/>
@@ -12173,7 +11916,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-58.42" x2="292.1" y2="-58.42" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="12"/>
 <label x="292.1" y="-58.42" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="28"/>
 <junction x="269.24" y="-58.42"/>
@@ -12189,7 +11931,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-71.12" x2="292.1" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="33"/>
 <label x="292.1" y="-71.12" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="18"/>
 <junction x="269.24" y="-71.12"/>
@@ -12205,7 +11946,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-60.96" x2="292.1" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="14"/>
 <label x="292.1" y="-60.96" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="26"/>
 <junction x="269.24" y="-60.96"/>
@@ -12221,7 +11961,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-83.82" x2="243.84" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="22"/>
 <label x="220.98" y="-83.82" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="7"/>
 <junction x="243.84" y="-83.82"/>
@@ -12237,7 +11976,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-66.04" x2="292.1" y2="-66.04" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="26"/>
 <label x="292.1" y="-66.04" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="22"/>
 <junction x="269.24" y="-66.04"/>
@@ -12253,7 +11991,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-63.5" x2="292.1" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="27"/>
 <label x="292.1" y="-63.5" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="24"/>
 <junction x="269.24" y="-63.5"/>
@@ -12269,7 +12006,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-71.12" x2="243.84" y2="-71.12" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="19"/>
 <label x="220.98" y="-71.12" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="17"/>
 <junction x="243.84" y="-71.12"/>
@@ -12285,7 +12021,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-50.8" x2="243.84" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="15"/>
 <label x="220.98" y="-50.8" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="33"/>
 <junction x="243.84" y="-50.8"/>
@@ -12301,7 +12036,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="220.98" y1="-68.58" x2="243.84" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="18"/>
 <label x="220.98" y="-68.58" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="19"/>
 <junction x="243.84" y="-68.58"/>
@@ -12317,7 +12051,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </segment>
 <segment>
 <wire x1="269.24" y1="-68.58" x2="292.1" y2="-68.58" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="25"/>
 <label x="292.1" y="-68.58" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="20"/>
 <junction x="269.24" y="-68.58"/>
@@ -12681,7 +12414,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <wire x1="292.1" y1="-88.9" x2="269.24" y2="-88.9" width="0.1524" layer="91"/>
 <label x="271.78" y="-88.9" size="1.778" layer="95"/>
-<pinref part="J4" gate="G$1" pin="3V3"/>
 <pinref part="J6" gate="G$1" pin="4"/>
 <junction x="269.24" y="-88.9"/>
 <pinref part="J6" gate="G$1" pin="3"/>
@@ -12692,7 +12424,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$2" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-45.72" x2="271.78" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="CMD"/>
 <pinref part="J6" gate="G$1" pin="38"/>
 <junction x="269.24" y="-45.72"/>
 <pinref part="J6" gate="G$1" pin="37"/>
@@ -12703,7 +12434,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$3" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-48.26" x2="271.78" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="D3"/>
 <pinref part="J6" gate="G$1" pin="36"/>
 <junction x="269.24" y="-48.26"/>
 <pinref part="J6" gate="G$1" pin="35"/>
@@ -12714,7 +12444,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-50.8" x2="271.78" y2="-50.8" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="D2"/>
 <pinref part="J6" gate="G$1" pin="34"/>
 <junction x="269.24" y="-50.8"/>
 <pinref part="J6" gate="G$1" pin="33"/>
@@ -12725,7 +12454,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$5" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-43.18" x2="241.3" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="CLK"/>
 <pinref part="J5" gate="G$1" pin="39"/>
 <junction x="243.84" y="-43.18"/>
 <pinref part="J5" gate="G$1" pin="40"/>
@@ -12736,7 +12464,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$6" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-45.72" x2="241.3" y2="-45.72" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="D0"/>
 <pinref part="J5" gate="G$1" pin="37"/>
 <junction x="243.84" y="-45.72"/>
 <pinref part="J5" gate="G$1" pin="38"/>
@@ -12747,7 +12474,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$7" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-48.26" x2="241.3" y2="-48.26" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="D1"/>
 <pinref part="J5" gate="G$1" pin="35"/>
 <junction x="243.84" y="-48.26"/>
 <pinref part="J5" gate="G$1" pin="36"/>
@@ -12758,7 +12484,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$8" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-81.28" x2="271.78" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="VN"/>
 <pinref part="J6" gate="G$1" pin="10"/>
 <junction x="269.24" y="-81.28"/>
 <pinref part="J6" gate="G$1" pin="9"/>
@@ -12769,7 +12494,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$9" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-83.82" x2="271.78" y2="-83.82" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="VP"/>
 <pinref part="J6" gate="G$1" pin="8"/>
 <junction x="269.24" y="-83.82"/>
 <pinref part="J6" gate="G$1" pin="7"/>
@@ -12780,7 +12504,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$10" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-78.74" x2="271.78" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="34"/>
 <pinref part="J6" gate="G$1" pin="12"/>
 <junction x="269.24" y="-78.74"/>
 <pinref part="J6" gate="G$1" pin="11"/>
@@ -12791,7 +12514,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$11" gate="G$1" pin="P$1"/>
 <wire x1="269.24" y1="-86.36" x2="271.78" y2="-86.36" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="EN"/>
 <pinref part="J6" gate="G$1" pin="6"/>
 <junction x="269.24" y="-86.36"/>
 <pinref part="J6" gate="G$1" pin="5"/>
@@ -12802,7 +12524,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$13" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-81.28" x2="241.3" y2="-81.28" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="TX"/>
 <pinref part="J5" gate="G$1" pin="9"/>
 <junction x="243.84" y="-81.28"/>
 <pinref part="J5" gate="G$1" pin="10"/>
@@ -12813,7 +12534,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$15" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-78.74" x2="241.3" y2="-78.74" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="RX"/>
 <pinref part="J5" gate="G$1" pin="11"/>
 <junction x="243.84" y="-78.74"/>
 <pinref part="J5" gate="G$1" pin="12"/>
@@ -12824,7 +12544,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$16" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-63.5" x2="241.3" y2="-63.5" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="17"/>
 <pinref part="J5" gate="G$1" pin="23"/>
 <junction x="243.84" y="-63.5"/>
 <pinref part="J5" gate="G$1" pin="24"/>
@@ -12835,7 +12554,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <pinref part="U$17" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="-60.96" x2="241.3" y2="-60.96" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="16"/>
 <pinref part="J5" gate="G$1" pin="25"/>
 <junction x="243.84" y="-60.96"/>
 <pinref part="J5" gate="G$1" pin="26"/>
@@ -12844,8 +12562,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="0"/>
-<junction x="243.84" y="-55.88"/>
 <pinref part="J5" gate="G$1" pin="29"/>
 <pinref part="J5" gate="G$1" pin="30"/>
 <wire x1="254" y1="-55.88" x2="243.84" y2="-55.88" width="0.1524" layer="91"/>
@@ -12855,7 +12571,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <wire x1="220.98" y1="-66.04" x2="243.84" y2="-66.04" width="0.1524" layer="91"/>
 <label x="220.98" y="-66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="5"/>
 <pinref part="J5" gate="G$1" pin="21"/>
 <junction x="243.84" y="-66.04"/>
 <pinref part="J5" gate="G$1" pin="22"/>
@@ -12866,7 +12581,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 <segment>
 <wire x1="292.1" y1="-76.2" x2="269.24" y2="-76.2" width="0.1524" layer="91"/>
 <label x="292.1" y="-76.2" size="1.778" layer="95" xref="yes"/>
-<pinref part="J4" gate="G$1" pin="35"/>
 <pinref part="J6" gate="G$1" pin="14"/>
 <junction x="269.24" y="-76.2"/>
 <pinref part="J6" gate="G$1" pin="13"/>
@@ -12889,7 +12603,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </net>
 <net name="RX" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="32"/>
 <wire x1="269.24" y1="-73.66" x2="279.4" y2="-73.66" width="0.1524" layer="91"/>
 <label x="279.4" y="-73.66" size="1.778" layer="95" rot="MR0"/>
 <pinref part="J6" gate="G$1" pin="16"/>
@@ -12900,7 +12613,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </net>
 <net name="TX" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="23"/>
 <wire x1="243.84" y1="-86.36" x2="228.6" y2="-86.36" width="0.1524" layer="91"/>
 <label x="228.6" y="-86.36" size="1.778" layer="95"/>
 <pinref part="J5" gate="G$1" pin="5"/>
@@ -12919,7 +12631,6 @@ Updated by Ella Wu 2019-06-12&lt;br&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="GND1"/>
 <wire x1="243.84" y1="-88.9" x2="218.44" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="GND23" gate="1" pin="GND"/>
 <pinref part="J5" gate="G$1" pin="3"/>
