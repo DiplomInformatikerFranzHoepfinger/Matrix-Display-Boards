@@ -862,7 +862,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="c:/git/franz/SmartMatrix/extras/hardware/ESP32/eclibrary.lbr"
 
 [Win_1]
 Type="Board Editor"
@@ -909,10 +908,6 @@ PadsSameType=0
 Layer=1
 
 [Win_2]
-Type="Control Panel"
-Number=0
-
-[Win_3]
 Type="Schematic Editor"
 Number=1
 File="PCB1a.sch"
@@ -958,8 +953,12 @@ Layer=91
 Views=" 1: 119.811 -171.402 424.194 71.5226"
 Sheet="1"
 
+[Win_3]
+Type="Control Panel"
+Number=0
+
 [Desktop]
-Screen="1920 1080"
+Screen="7040 1440"
 Window="Win_1"
 Window="Win_2"
 Window="Win_3"
